@@ -2,9 +2,16 @@ name: Daily Analysis
 
 on:
   schedule:
-    # Run at 4:30 PM IST (11:00 AM UTC) Monday-Friday
+    # Run at 4:30 PM IST (11:00 AM UTC) Monday-Friday.
     - cron: '0 11 * * 1-5'
   workflow_dispatch:
+
+concurrency:
+  group: daily-production-analysis
+  cancel-in-progress: false
+
+permissions:
+  contents: write
 
 jobs:
   analysis:
@@ -12,33 +19,105 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          python -m pip install -r requirements.txt
 
-      - name: Run analysis
+      - name: Back up and run production analysis
         run: |
-          python src/main.py
+          set -o pipefail
+          if [ -f data/latest.json ]; then
+            cp data/latest.json "$RUNNER_TEMP/latest.json.backup"
+          fi
+          if ! python phase_8_production_analysis.py; then
+            if [ -f "$RUNNER_TEMP/latest.json.backup" ]; then
+              cp "$RUNNER_TEMP/latest.json.backup" data/latest.json
+            fi
+            echo "Phase 8 failed; the previous latest.json was restored."
+            exit 1
+          fi
 
-      - name: Run tests
+      - name: Validate production output
         run: |
-          pytest tests/ -v
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          path = Path('data/latest.json')
+          if not path.is_file():
+              raise SystemExit('data/latest.json does not exist')
+
+          try:
+              report = json.loads(path.read_text(encoding='utf-8'))
+          except json.JSONDecodeError as error:
+              raise SystemExit(f'latest.json is invalid JSON: {error}')
+
+          required_top_level = {
+              'analysis_timestamp', 'universe_as_of', 'universe_count',
+              'eligible_count', 'market_regime', 'selected_stocks',
+              'large_cap', 'mid_cap', 'warnings',
+          }
+          missing = required_top_level - report.keys()
+          if missing:
+              raise SystemExit(f'Missing top-level fields: {sorted(missing)}')
+          if report['universe_count'] != 250:
+              raise SystemExit(f"Expected universe_count=250, got {report['universe_count']}")
+          if report['eligible_count'] <= 0:
+              raise SystemExit('No eligible stocks were produced')
+
+          selected = report['selected_stocks']
+          if len(selected) != 10:
+              raise SystemExit(f'Expected exactly 10 selected stocks, got {len(selected)}')
+          if sum(stock.get('segment') == 'NIFTY100' for stock in selected) != 5:
+              raise SystemExit('Expected 5 NIFTY100 selections')
+          if sum(stock.get('segment') == 'MIDCAP150' for stock in selected) != 5:
+              raise SystemExit('Expected 5 MIDCAP150 selections')
+
+          factor_names = ('momentum', 'trend', 'relative_strength', 'volume', 'rsi', '52_week_strength', 'risk')
+          for stock in selected:
+              if stock.get('score_status') != 'OK':
+                  raise SystemExit(f"Selected stock is not OK: {stock.get('symbol')}")
+              score = stock.get('overall_score')
+              if not isinstance(score, (int, float)) or not 0 <= score <= 100:
+                  raise SystemExit(f"Invalid score for {stock.get('symbol')}: {score}")
+              if abs(score - sum(stock['factor_scores'][name] for name in factor_names)) > 1e-9:
+                  raise SystemExit(f"Factor sum mismatch for {stock.get('symbol')}")
+              for field in ('indicators', 'metrics', 'explanations', 'selection_reason'):
+                  if field not in stock:
+                      raise SystemExit(f"Missing {field} for {stock.get('symbol')}")
+              for field in ('price', 'return_1m', 'return_3m', 'return_6m', 'rsi'):
+                  if stock['metrics'].get(field) is None:
+                      raise SystemExit(f"Missing frontend metric {field} for {stock.get('symbol')}")
+
+          print(f"Universe: {report['universe_count']}")
+          print(f"Eligible: {report['eligible_count']}")
+          print(f"Selected: {len(selected)}")
+          print(f"NIFTY100 selected: {sum(stock.get('segment') == 'NIFTY100' for stock in selected)}")
+          print(f"MIDCAP150 selected: {sum(stock.get('segment') == 'MIDCAP150' for stock in selected)}")
+          print('Output validation: PASSED')
+          PY
+
+      - name: Run focused production tests
+        run: |
+          python -m pytest tests/test_indicators.py tests/test_scoring.py tests/test_universe_validation.py tests/test_market_regime.py tests/test_selection.py tests/test_production_universe.py tests/test_batch_downloader.py tests/test_historical_audit.py tests/test_phase_8_output.py -v
 
       - name: Check for changes
         id: check_changes
         run: |
           if git diff --quiet data/latest.json; then
             echo "changed=false" >> $GITHUB_OUTPUT
+            echo "No recommendation data change."
           else
             echo "changed=true" >> $GITHUB_OUTPUT
+            echo "Recommendation data changed."
           fi
 
       - name: Commit and push if changed
@@ -46,14 +125,26 @@ jobs:
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
-          git add data/latest.json
-          git commit -m "Daily analysis update - $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
+          git add -- data/latest.json
+          git commit -m "Daily analysis update - $(date -u +'%Y-%m-%d')"
           git push
 
       - name: Report Summary
         if: always()
         run: |
+          echo "Analysis start/completion are shown in the Phase 8 logs."
+          if [ -f data/latest.json ]; then
+            python - <<'PY'
+          import json
+          with open('data/latest.json', encoding='utf-8') as file:
+              report = json.load(file)
+          selected = report.get('selected_stocks', [])
+          print(f"Universe: {report.get('universe_count', 'unknown')}")
+          print(f"Eligible: {report.get('eligible_count', 'unknown')}")
+          print(f"Selected: {len(selected)}")
+          print(f"NIFTY100 selected: {sum(s.get('segment') == 'NIFTY100' for s in selected)}")
+          print(f"MIDCAP150 selected: {sum(s.get('segment') == 'MIDCAP150' for s in selected)}")
+          PY
+          fi
+          echo "Commit created: ${{ steps.check_changes.outputs.changed }}"
           echo "Analysis completed at $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
-
-# Note: Phase 9 will implement the complete workflow
-# This template includes the basic structure for scheduling and automation

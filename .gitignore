@@ -1,0 +1,53 @@
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# IDE
+.vscode/
+.idea/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local test/output files
+*.bak
+
+# Development / validation data
+data/backtest/
+data/phase_7_5_batch_test_results.json
+data/phase_7_6_historical_audit.json
+data/production_universe_validation.json
+
+# Development output
+output.txt
+phase5_output.txt
+phase5_report.txt

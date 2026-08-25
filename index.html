@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Market Signal Engine | Top 10 Signals</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="site-header">
+            <div class="eyebrow">QUANTITATIVE MARKET RESEARCH</div>
+            <h1>INDIAN MARKET SIGNAL ENGINE</h1>
+            <p class="tagline">Top 10 Quantitative Stock Signals</p>
+            <p class="universe-label">Nifty 100 + Nifty Midcap 150</p>
+            <p id="data-timestamp" class="timestamp"></p>
+        </header>
+
+        <main>
+            <div id="loading" class="loading">
+                <p>Loading latest market analysis...</p>
+            </div>
+
+            <div id="content" class="content" hidden>
+                <section class="intro-band">
+                    <div>
+                        <p class="section-kicker">TODAY'S SHORTLIST</p>
+                        <h2>Top 10</h2>
+                        <p class="section-copy">The strongest qualifying signals in the latest analysis.</p>
+                    </div>
+                    <div id="coverage-summary" class="coverage-summary"></div>
+                </section>
+
+                <section class="summary-panel" aria-labelledby="summary-title">
+                    <div class="section-heading">
+                        <p class="section-kicker">AT A GLANCE</p>
+                        <h2 id="summary-title">Ranked signals</h2>
+                    </div>
+                    <div id="top-10-summary" class="summary-list"></div>
+                </section>
+
+                <section class="method-panel" aria-labelledby="method-title">
+                    <div class="section-heading">
+                        <p class="section-kicker">THE MODEL</p>
+                        <h2 id="method-title">How are these stocks selected?</h2>
+                    </div>
+                    <p>We analyze stocks from the Nifty 100 and Nifty Midcap 150 using historical market data. Each eligible stock receives a quantitative score based on momentum, trend, relative strength, volume, RSI, 52-week strength and risk. The model then ranks the stocks and selects up to 5 from each segment while applying sector diversification.</p>
+                    <p class="method-note">These signals describe current quantitative characteristics. They do not guarantee future returns and are not financial advice.</p>
+                </section>
+
+                <section class="segment-section">
+                    <div class="section-heading segment-heading">
+                        <div>
+                            <p class="section-kicker">LARGE CAP</p>
+                            <h2>NIFTY 100 — TOP 5</h2>
+                        </div>
+                        <span class="segment-count">Selected signals</span>
+                    </div>
+                    <div id="large-cap-list" class="stocks-grid">
+                    </div>
+                </section>
+
+                <section class="segment-section">
+                    <div class="section-heading segment-heading">
+                        <div>
+                            <p class="section-kicker">MID CAP</p>
+                            <h2>NIFTY MIDCAP 150 — TOP 5</h2>
+                        </div>
+                        <span class="segment-count">Selected signals</span>
+                    </div>
+                    <div id="mid-cap-list" class="stocks-grid">
+                    </div>
+                </section>
+
+                <section id="warnings-section" class="warnings-section" hidden>
+                    <p class="section-kicker">READ BEFORE USING</p>
+                    <h2>Important notes</h2>
+                    <ul id="warnings-list">
+                    </ul>
+                </section>
+            </div>
+
+            <!-- Error state -->
+            <div id="error" class="error-message" hidden>
+                <p>Unable to load the latest market analysis. Please try again later.</p>
+            </div>
+        </main>
+
+        <footer>
+            <div class="disclaimer">
+                <p>Quantitative signals are based on historical market data and do not guarantee future performance. This page is for informational purposes only and is not financial advice.</p>
+            </div>
+            <p class="footer-text">
+                Data source: <strong>Yahoo Finance</strong> <span aria-hidden="true">•</span> EOD analysis only <span aria-hidden="true">•</span> Universe: Nifty 100 + Nifty Midcap 150
+            </p>
+        </footer>
+    </div>
+
+    <script src="app.js?v=3"></script>
+</body>
+</html>

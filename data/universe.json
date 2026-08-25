@@ -1,0 +1,2013 @@
+{
+  "universe_as_of": "2026-08-21",
+  "source": {
+    "provider": "NSE Indices Limited",
+    "nifty100_constituents": "https://www.niftyindices.com/IndexConstituent/ind_nifty100list.csv",
+    "midcap150_constituents": "https://www.niftyindices.com/IndexConstituent/ind_niftymidcap150list.csv",
+    "sector_source": "Official constituent CSV Industry field"
+  },
+  "large_cap": [
+    {
+      "symbol": "ABB",
+      "yahoo_symbol": "ABB.NS",
+      "name": "ABB India Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Capital Goods",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "ADANIENSOL",
+      "yahoo_symbol": "ADANIENSOL.NS",
+      "name": "Adani Energy Solutions Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Power",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "ADANIENT",
+      "yahoo_symbol": "ADANIENT.NS",
+      "name": "Adani Enterprises Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Metals & Mining",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "ADANIGREEN",
+      "yahoo_symbol": "ADANIGREEN.NS",
+      "name": "Adani Green Energy Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Power",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "ADANIPORTS",
+      "yahoo_symbol": "ADANIPORTS.NS",
+      "name": "Adani Ports and Special Economic Zone Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Services",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "ADANIPOWER",
+      "yahoo_symbol": "ADANIPOWER.NS",
+      "name": "Adani Power Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Power",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "AMBUJACEM",
+      "yahoo_symbol": "AMBUJACEM.NS",
+      "name": "Ambuja Cements Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Construction Materials",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "APOLLOHOSP",
+      "yahoo_symbol": "APOLLOHOSP.NS",
+      "name": "Apollo Hospitals Enterprise Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Healthcare",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "ASIANPAINT",
+      "yahoo_symbol": "ASIANPAINT.NS",
+      "name": "Asian Paints Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Consumer Durables",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "DMART",
+      "yahoo_symbol": "DMART.NS",
+      "name": "Avenue Supermarts Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Consumer Services",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "AXISBANK",
+      "yahoo_symbol": "AXISBANK.NS",
+      "name": "Axis Bank Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Financial Services",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "BAJAJ-AUTO",
+      "yahoo_symbol": "BAJAJ-AUTO.NS",
+      "name": "Bajaj Auto Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Automobile and Auto Components",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "BAJFINANCE",
+      "yahoo_symbol": "BAJFINANCE.NS",
+      "name": "Bajaj Finance Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Financial Services",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "BAJAJFINSV",
+      "yahoo_symbol": "BAJAJFINSV.NS",
+      "name": "Bajaj Finserv Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Financial Services",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "BAJAJHLDNG",
+      "yahoo_symbol": "BAJAJHLDNG.NS",
+      "name": "Bajaj Holdings & Investment Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Financial Services",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "BANKBARODA",
+      "yahoo_symbol": "BANKBARODA.NS",
+      "name": "Bank of Baroda",
+      "segment": "NIFTY100",
+      "sector": "Financial Services",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "BEL",
+      "yahoo_symbol": "BEL.NS",
+      "name": "Bharat Electronics Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Capital Goods",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "BPCL",
+      "yahoo_symbol": "BPCL.NS",
+      "name": "Bharat Petroleum Corporation Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Oil Gas & Consumable Fuels",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "BHARTIARTL",
+      "yahoo_symbol": "BHARTIARTL.NS",
+      "name": "Bharti Airtel Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Telecommunication",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "BOSCHLTD",
+      "yahoo_symbol": "BOSCHLTD.NS",
+      "name": "Bosch Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Automobile and Auto Components",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "BRITANNIA",
+      "yahoo_symbol": "BRITANNIA.NS",
+      "name": "Britannia Industries Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Fast Moving Consumer Goods",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "CGPOWER",
+      "yahoo_symbol": "CGPOWER.NS",
+      "name": "CG Power and Industrial Solutions Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Capital Goods",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "CANBK",
+      "yahoo_symbol": "CANBK.NS",
+      "name": "Canara Bank",
+      "segment": "NIFTY100",
+      "sector": "Financial Services",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "CHOLAFIN",
+      "yahoo_symbol": "CHOLAFIN.NS",
+      "name": "Cholamandalam Investment and Finance Company Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Financial Services",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "CIPLA",
+      "yahoo_symbol": "CIPLA.NS",
+      "name": "Cipla Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Healthcare",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "COALINDIA",
+      "yahoo_symbol": "COALINDIA.NS",
+      "name": "Coal India Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Oil Gas & Consumable Fuels",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "CUMMINSIND",
+      "yahoo_symbol": "CUMMINSIND.NS",
+      "name": "Cummins India Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Capital Goods",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "DLF",
+      "yahoo_symbol": "DLF.NS",
+      "name": "DLF Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Realty",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "DIVISLAB",
+      "yahoo_symbol": "DIVISLAB.NS",
+      "name": "Divi's Laboratories Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Healthcare",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "DRREDDY",
+      "yahoo_symbol": "DRREDDY.NS",
+      "name": "Dr. Reddy's Laboratories Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Healthcare",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "EICHERMOT",
+      "yahoo_symbol": "EICHERMOT.NS",
+      "name": "Eicher Motors Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Automobile and Auto Components",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "ETERNAL",
+      "yahoo_symbol": "ETERNAL.NS",
+      "name": "Eternal Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Consumer Services",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "GAIL",
+      "yahoo_symbol": "GAIL.NS",
+      "name": "GAIL (India) Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Oil Gas & Consumable Fuels",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "GODREJCP",
+      "yahoo_symbol": "GODREJCP.NS",
+      "name": "Godrej Consumer Products Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Fast Moving Consumer Goods",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "GRASIM",
+      "yahoo_symbol": "GRASIM.NS",
+      "name": "Grasim Industries Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Construction Materials",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "HCLTECH",
+      "yahoo_symbol": "HCLTECH.NS",
+      "name": "HCL Technologies Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Information Technology",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "HDFCAMC",
+      "yahoo_symbol": "HDFCAMC.NS",
+      "name": "HDFC Asset Management Company Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Financial Services",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "HDFCBANK",
+      "yahoo_symbol": "HDFCBANK.NS",
+      "name": "HDFC Bank Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Financial Services",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "HDFCLIFE",
+      "yahoo_symbol": "HDFCLIFE.NS",
+      "name": "HDFC Life Insurance Company Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Financial Services",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "HINDALCO",
+      "yahoo_symbol": "HINDALCO.NS",
+      "name": "Hindalco Industries Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Metals & Mining",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "HAL",
+      "yahoo_symbol": "HAL.NS",
+      "name": "Hindustan Aeronautics Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Capital Goods",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "HINDUNILVR",
+      "yahoo_symbol": "HINDUNILVR.NS",
+      "name": "Hindustan Unilever Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Fast Moving Consumer Goods",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "HINDZINC",
+      "yahoo_symbol": "HINDZINC.NS",
+      "name": "Hindustan Zinc Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Metals & Mining",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "HYUNDAI",
+      "yahoo_symbol": "HYUNDAI.NS",
+      "name": "Hyundai Motor India Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Automobile and Auto Components",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "ICICIBANK",
+      "yahoo_symbol": "ICICIBANK.NS",
+      "name": "ICICI Bank Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Financial Services",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "ITC",
+      "yahoo_symbol": "ITC.NS",
+      "name": "ITC Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Fast Moving Consumer Goods",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "INDHOTEL",
+      "yahoo_symbol": "INDHOTEL.NS",
+      "name": "Indian Hotels Co. Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Consumer Services",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "IOC",
+      "yahoo_symbol": "IOC.NS",
+      "name": "Indian Oil Corporation Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Oil Gas & Consumable Fuels",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "IRFC",
+      "yahoo_symbol": "IRFC.NS",
+      "name": "Indian Railway Finance Corporation Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Financial Services",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "INFY",
+      "yahoo_symbol": "INFY.NS",
+      "name": "Infosys Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Information Technology",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "INDIGO",
+      "yahoo_symbol": "INDIGO.NS",
+      "name": "InterGlobe Aviation Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Services",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "JSWSTEEL",
+      "yahoo_symbol": "JSWSTEEL.NS",
+      "name": "JSW Steel Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Metals & Mining",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "JINDALSTEL",
+      "yahoo_symbol": "JINDALSTEL.NS",
+      "name": "Jindal Steel Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Metals & Mining",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "JIOFIN",
+      "yahoo_symbol": "JIOFIN.NS",
+      "name": "Jio Financial Services Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Financial Services",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "KOTAKBANK",
+      "yahoo_symbol": "KOTAKBANK.NS",
+      "name": "Kotak Mahindra Bank Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Financial Services",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "LTM",
+      "yahoo_symbol": "LTM.NS",
+      "name": "LTM Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Information Technology",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "LT",
+      "yahoo_symbol": "LT.NS",
+      "name": "Larsen & Toubro Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Construction",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "LODHA",
+      "yahoo_symbol": "LODHA.NS",
+      "name": "Lodha Developers Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Realty",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "M&M",
+      "yahoo_symbol": "M&M.NS",
+      "name": "Mahindra & Mahindra Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Automobile and Auto Components",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "MARUTI",
+      "yahoo_symbol": "MARUTI.NS",
+      "name": "Maruti Suzuki India Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Automobile and Auto Components",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "MAXHEALTH",
+      "yahoo_symbol": "MAXHEALTH.NS",
+      "name": "Max Healthcare Institute Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Healthcare",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "MAZDOCK",
+      "yahoo_symbol": "MAZDOCK.NS",
+      "name": "Mazagoan Dock Shipbuilders Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Capital Goods",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "MUTHOOTFIN",
+      "yahoo_symbol": "MUTHOOTFIN.NS",
+      "name": "Muthoot Finance Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Financial Services",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "NTPC",
+      "yahoo_symbol": "NTPC.NS",
+      "name": "NTPC Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Power",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "NESTLEIND",
+      "yahoo_symbol": "NESTLEIND.NS",
+      "name": "Nestle India Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Fast Moving Consumer Goods",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "ONGC",
+      "yahoo_symbol": "ONGC.NS",
+      "name": "Oil & Natural Gas Corporation Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Oil Gas & Consumable Fuels",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "PIDILITIND",
+      "yahoo_symbol": "PIDILITIND.NS",
+      "name": "Pidilite Industries Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Chemicals",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "PFC",
+      "yahoo_symbol": "PFC.NS",
+      "name": "Power Finance Corporation Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Financial Services",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "POWERGRID",
+      "yahoo_symbol": "POWERGRID.NS",
+      "name": "Power Grid Corporation of India Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Power",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "PNB",
+      "yahoo_symbol": "PNB.NS",
+      "name": "Punjab National Bank",
+      "segment": "NIFTY100",
+      "sector": "Financial Services",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "RECLTD",
+      "yahoo_symbol": "RECLTD.NS",
+      "name": "REC Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Financial Services",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "RELIANCE",
+      "yahoo_symbol": "RELIANCE.NS",
+      "name": "Reliance Industries Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Oil Gas & Consumable Fuels",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "SBILIFE",
+      "yahoo_symbol": "SBILIFE.NS",
+      "name": "SBI Life Insurance Company Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Financial Services",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "MOTHERSON",
+      "yahoo_symbol": "MOTHERSON.NS",
+      "name": "Samvardhana Motherson International Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Automobile and Auto Components",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "SHREECEM",
+      "yahoo_symbol": "SHREECEM.NS",
+      "name": "Shree Cement Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Construction Materials",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "SHRIRAMFIN",
+      "yahoo_symbol": "SHRIRAMFIN.NS",
+      "name": "Shriram Finance Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Financial Services",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "ENRIN",
+      "yahoo_symbol": "ENRIN.NS",
+      "name": "Siemens Energy India Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Capital Goods",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "SIEMENS",
+      "yahoo_symbol": "SIEMENS.NS",
+      "name": "Siemens Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Capital Goods",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "SOLARINDS",
+      "yahoo_symbol": "SOLARINDS.NS",
+      "name": "Solar Industries India Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Chemicals",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "SBIN",
+      "yahoo_symbol": "SBIN.NS",
+      "name": "State Bank of India",
+      "segment": "NIFTY100",
+      "sector": "Financial Services",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "SUNPHARMA",
+      "yahoo_symbol": "SUNPHARMA.NS",
+      "name": "Sun Pharmaceutical Industries Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Healthcare",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "TVSMOTOR",
+      "yahoo_symbol": "TVSMOTOR.NS",
+      "name": "TVS Motor Company Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Automobile and Auto Components",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "TATACAP",
+      "yahoo_symbol": "TATACAP.NS",
+      "name": "Tata Capital Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Financial Services",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "TCS",
+      "yahoo_symbol": "TCS.NS",
+      "name": "Tata Consultancy Services Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Information Technology",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "TATACONSUM",
+      "yahoo_symbol": "TATACONSUM.NS",
+      "name": "Tata Consumer Products Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Fast Moving Consumer Goods",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "TMCV",
+      "yahoo_symbol": "TMCV.NS",
+      "name": "Tata Motors Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Capital Goods",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "TMPV",
+      "yahoo_symbol": "TMPV.NS",
+      "name": "Tata Motors Passenger Vehicles Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Automobile and Auto Components",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "TATAPOWER",
+      "yahoo_symbol": "TATAPOWER.NS",
+      "name": "Tata Power Co. Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Power",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "TATASTEEL",
+      "yahoo_symbol": "TATASTEEL.NS",
+      "name": "Tata Steel Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Metals & Mining",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "TECHM",
+      "yahoo_symbol": "TECHM.NS",
+      "name": "Tech Mahindra Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Information Technology",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "TITAN",
+      "yahoo_symbol": "TITAN.NS",
+      "name": "Titan Company Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Consumer Durables",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "TORNTPHARM",
+      "yahoo_symbol": "TORNTPHARM.NS",
+      "name": "Torrent Pharmaceuticals Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Healthcare",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "TRENT",
+      "yahoo_symbol": "TRENT.NS",
+      "name": "Trent Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Consumer Services",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "ULTRACEMCO",
+      "yahoo_symbol": "ULTRACEMCO.NS",
+      "name": "UltraTech Cement Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Construction Materials",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "UNIONBANK",
+      "yahoo_symbol": "UNIONBANK.NS",
+      "name": "Union Bank of India",
+      "segment": "NIFTY100",
+      "sector": "Financial Services",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "UNITDSPR",
+      "yahoo_symbol": "UNITDSPR.NS",
+      "name": "United Spirits Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Fast Moving Consumer Goods",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "VBL",
+      "yahoo_symbol": "VBL.NS",
+      "name": "Varun Beverages Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Fast Moving Consumer Goods",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "VEDL",
+      "yahoo_symbol": "VEDL.NS",
+      "name": "Vedanta Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Metals & Mining",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "WIPRO",
+      "yahoo_symbol": "WIPRO.NS",
+      "name": "Wipro Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Information Technology",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "ZYDUSLIFE",
+      "yahoo_symbol": "ZYDUSLIFE.NS",
+      "name": "Zydus Lifesciences Ltd.",
+      "segment": "NIFTY100",
+      "sector": "Healthcare",
+      "mapping_status": "VALIDATED"
+    }
+  ],
+  "mid_cap": [
+    {
+      "symbol": "360ONE",
+      "yahoo_symbol": "360ONE.NS",
+      "name": "360 ONE WAM Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Financial Services",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "3MINDIA",
+      "yahoo_symbol": "3MINDIA.NS",
+      "name": "3M India Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Diversified",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "ACC",
+      "yahoo_symbol": "ACC.NS",
+      "name": "ACC Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Construction Materials",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "AIAENG",
+      "yahoo_symbol": "AIAENG.NS",
+      "name": "AIA Engineering Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Capital Goods",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "APLAPOLLO",
+      "yahoo_symbol": "APLAPOLLO.NS",
+      "name": "APL Apollo Tubes Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Capital Goods",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "AUBANK",
+      "yahoo_symbol": "AUBANK.NS",
+      "name": "AU Small Finance Bank Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Financial Services",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "AWL",
+      "yahoo_symbol": "AWL.NS",
+      "name": "AWL Agri Business Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Fast Moving Consumer Goods",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "ABBOTINDIA",
+      "yahoo_symbol": "ABBOTINDIA.NS",
+      "name": "Abbott India Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Healthcare",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "ATGL",
+      "yahoo_symbol": "ATGL.NS",
+      "name": "Adani Total Gas Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Oil Gas & Consumable Fuels",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "ABCAPITAL",
+      "yahoo_symbol": "ABCAPITAL.NS",
+      "name": "Aditya Birla Capital Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Financial Services",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "AJANTPHARM",
+      "yahoo_symbol": "AJANTPHARM.NS",
+      "name": "Ajanta Pharmaceuticals Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Healthcare",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "ALKEM",
+      "yahoo_symbol": "ALKEM.NS",
+      "name": "Alkem Laboratories Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Healthcare",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "ANTHEM",
+      "yahoo_symbol": "ANTHEM.NS",
+      "name": "Anthem Biosciences Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Healthcare",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "APARINDS",
+      "yahoo_symbol": "APARINDS.NS",
+      "name": "Apar Industries Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Capital Goods",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "APOLLOTYRE",
+      "yahoo_symbol": "APOLLOTYRE.NS",
+      "name": "Apollo Tyres Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Automobile and Auto Components",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "ASHOKLEY",
+      "yahoo_symbol": "ASHOKLEY.NS",
+      "name": "Ashok Leyland Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Capital Goods",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "ASTRAL",
+      "yahoo_symbol": "ASTRAL.NS",
+      "name": "Astral Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Capital Goods",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "AUROPHARMA",
+      "yahoo_symbol": "AUROPHARMA.NS",
+      "name": "Aurobindo Pharma Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Healthcare",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "AIIL",
+      "yahoo_symbol": "AIIL.NS",
+      "name": "Authum Investment & Infrastructure Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Financial Services",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "BSE",
+      "yahoo_symbol": "BSE.NS",
+      "name": "BSE Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Financial Services",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "BAJAJHFL",
+      "yahoo_symbol": "BAJAJHFL.NS",
+      "name": "Bajaj Housing Finance Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Financial Services",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "BALKRISIND",
+      "yahoo_symbol": "BALKRISIND.NS",
+      "name": "Balkrishna Industries Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Automobile and Auto Components",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "BANKINDIA",
+      "yahoo_symbol": "BANKINDIA.NS",
+      "name": "Bank of India",
+      "segment": "MIDCAP150",
+      "sector": "Financial Services",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "MAHABANK",
+      "yahoo_symbol": "MAHABANK.NS",
+      "name": "Bank of Maharashtra",
+      "segment": "MIDCAP150",
+      "sector": "Financial Services",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "BERGEPAINT",
+      "yahoo_symbol": "BERGEPAINT.NS",
+      "name": "Berger Paints India Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Consumer Durables",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "BDL",
+      "yahoo_symbol": "BDL.NS",
+      "name": "Bharat Dynamics Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Capital Goods",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "BHARATFORG",
+      "yahoo_symbol": "BHARATFORG.NS",
+      "name": "Bharat Forge Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Automobile and Auto Components",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "BHEL",
+      "yahoo_symbol": "BHEL.NS",
+      "name": "Bharat Heavy Electricals Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Capital Goods",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "BHARTIHEXA",
+      "yahoo_symbol": "BHARTIHEXA.NS",
+      "name": "Bharti Hexacom Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Telecommunication",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "GROWW",
+      "yahoo_symbol": "GROWW.NS",
+      "name": "Billionbrains Garage Ventures Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Financial Services",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "BIOCON",
+      "yahoo_symbol": "BIOCON.NS",
+      "name": "Biocon Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Healthcare",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "BLUESTARCO",
+      "yahoo_symbol": "BLUESTARCO.NS",
+      "name": "Blue Star Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Consumer Durables",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "CRISIL",
+      "yahoo_symbol": "CRISIL.NS",
+      "name": "CRISIL Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Financial Services",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "COCHINSHIP",
+      "yahoo_symbol": "COCHINSHIP.NS",
+      "name": "Cochin Shipyard Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Capital Goods",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "COFORGE",
+      "yahoo_symbol": "COFORGE.NS",
+      "name": "Coforge Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Information Technology",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "COLPAL",
+      "yahoo_symbol": "COLPAL.NS",
+      "name": "Colgate Palmolive (India) Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Fast Moving Consumer Goods",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "CONCOR",
+      "yahoo_symbol": "CONCOR.NS",
+      "name": "Container Corporation of India Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Services",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "COROMANDEL",
+      "yahoo_symbol": "COROMANDEL.NS",
+      "name": "Coromandel International Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Chemicals",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "DABUR",
+      "yahoo_symbol": "DABUR.NS",
+      "name": "Dabur India Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Fast Moving Consumer Goods",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "DALBHARAT",
+      "yahoo_symbol": "DALBHARAT.NS",
+      "name": "Dalmia Bharat Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Construction Materials",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "DIXON",
+      "yahoo_symbol": "DIXON.NS",
+      "name": "Dixon Technologies (India) Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Consumer Durables",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "ENDURANCE",
+      "yahoo_symbol": "ENDURANCE.NS",
+      "name": "Endurance Technologies Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Automobile and Auto Components",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "ESCORTS",
+      "yahoo_symbol": "ESCORTS.NS",
+      "name": "Escorts Kubota Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Capital Goods",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "EXIDEIND",
+      "yahoo_symbol": "EXIDEIND.NS",
+      "name": "Exide Industries Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Automobile and Auto Components",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "NYKAA",
+      "yahoo_symbol": "NYKAA.NS",
+      "name": "FSN E-Commerce Ventures Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Consumer Services",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "FEDERALBNK",
+      "yahoo_symbol": "FEDERALBNK.NS",
+      "name": "Federal Bank Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Financial Services",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "FORTIS",
+      "yahoo_symbol": "FORTIS.NS",
+      "name": "Fortis Healthcare Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Healthcare",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "GVT&D",
+      "yahoo_symbol": "GVT&D.NS",
+      "name": "GE Vernova T&D India Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Capital Goods",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "GMRAIRPORT",
+      "yahoo_symbol": "GMRAIRPORT.NS",
+      "name": "GMR Airports Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Services",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "GICRE",
+      "yahoo_symbol": "GICRE.NS",
+      "name": "General Insurance Corporation of India",
+      "segment": "MIDCAP150",
+      "sector": "Financial Services",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "GLAXO",
+      "yahoo_symbol": "GLAXO.NS",
+      "name": "Glaxosmithkline Pharmaceuticals Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Healthcare",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "GLENMARK",
+      "yahoo_symbol": "GLENMARK.NS",
+      "name": "Glenmark Pharmaceuticals Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Healthcare",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "MEDANTA",
+      "yahoo_symbol": "MEDANTA.NS",
+      "name": "Global Health Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Healthcare",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "GODFRYPHLP",
+      "yahoo_symbol": "GODFRYPHLP.NS",
+      "name": "Godfrey Phillips India Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Fast Moving Consumer Goods",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "GODREJIND",
+      "yahoo_symbol": "GODREJIND.NS",
+      "name": "Godrej Industries Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Diversified",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "GODREJPROP",
+      "yahoo_symbol": "GODREJPROP.NS",
+      "name": "Godrej Properties Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Realty",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "FLUOROCHEM",
+      "yahoo_symbol": "FLUOROCHEM.NS",
+      "name": "Gujarat Fluorochemicals Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Chemicals",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "HDBFS",
+      "yahoo_symbol": "HDBFS.NS",
+      "name": "HDB Financial Services Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Financial Services",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "HAVELLS",
+      "yahoo_symbol": "HAVELLS.NS",
+      "name": "Havells India Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Consumer Durables",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "HEROMOTOCO",
+      "yahoo_symbol": "HEROMOTOCO.NS",
+      "name": "Hero MotoCorp Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Automobile and Auto Components",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "HEXT",
+      "yahoo_symbol": "HEXT.NS",
+      "name": "Hexaware Technologies Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Information Technology",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "HINDPETRO",
+      "yahoo_symbol": "HINDPETRO.NS",
+      "name": "Hindustan Petroleum Corporation Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Oil Gas & Consumable Fuels",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "POWERINDIA",
+      "yahoo_symbol": "POWERINDIA.NS",
+      "name": "Hitachi Energy India Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Capital Goods",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "HONAUT",
+      "yahoo_symbol": "HONAUT.NS",
+      "name": "Honeywell Automation India Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Capital Goods",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "HUDCO",
+      "yahoo_symbol": "HUDCO.NS",
+      "name": "Housing & Urban Development Corporation Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Financial Services",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "ICICIGI",
+      "yahoo_symbol": "ICICIGI.NS",
+      "name": "ICICI Lombard General Insurance Company Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Financial Services",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "ICICIAMC",
+      "yahoo_symbol": "ICICIAMC.NS",
+      "name": "ICICI Prudential Asset Management Company Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Financial Services",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "ICICIPRULI",
+      "yahoo_symbol": "ICICIPRULI.NS",
+      "name": "ICICI Prudential Life Insurance Company Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Financial Services",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "IDFCFIRSTB",
+      "yahoo_symbol": "IDFCFIRSTB.NS",
+      "name": "IDFC First Bank Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Financial Services",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "ITCHOTELS",
+      "yahoo_symbol": "ITCHOTELS.NS",
+      "name": "ITC Hotels Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Consumer Services",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "INDIANB",
+      "yahoo_symbol": "INDIANB.NS",
+      "name": "Indian Bank",
+      "segment": "MIDCAP150",
+      "sector": "Financial Services",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "IRCTC",
+      "yahoo_symbol": "IRCTC.NS",
+      "name": "Indian Railway Catering And Tourism Corporation Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Consumer Services",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "IREDA",
+      "yahoo_symbol": "IREDA.NS",
+      "name": "Indian Renewable Energy Development Agency Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Financial Services",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "INDUSTOWER",
+      "yahoo_symbol": "INDUSTOWER.NS",
+      "name": "Indus Towers Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Telecommunication",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "INDUSINDBK",
+      "yahoo_symbol": "INDUSINDBK.NS",
+      "name": "IndusInd Bank Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Financial Services",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "NAUKRI",
+      "yahoo_symbol": "NAUKRI.NS",
+      "name": "Info Edge (India) Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Consumer Services",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "IPCALAB",
+      "yahoo_symbol": "IPCALAB.NS",
+      "name": "Ipca Laboratories Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Healthcare",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "JKCEMENT",
+      "yahoo_symbol": "JKCEMENT.NS",
+      "name": "J.K. Cement Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Construction Materials",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "JSWENERGY",
+      "yahoo_symbol": "JSWENERGY.NS",
+      "name": "JSW Energy Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Power",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "JSWINFRA",
+      "yahoo_symbol": "JSWINFRA.NS",
+      "name": "JSW Infrastructure Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Services",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "JSL",
+      "yahoo_symbol": "JSL.NS",
+      "name": "Jindal Stainless Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Metals & Mining",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "JUBLFOOD",
+      "yahoo_symbol": "JUBLFOOD.NS",
+      "name": "Jubilant Foodworks Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Consumer Services",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "KPRMILL",
+      "yahoo_symbol": "KPRMILL.NS",
+      "name": "K.P.R. Mill Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Textiles",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "KEI",
+      "yahoo_symbol": "KEI.NS",
+      "name": "KEI Industries Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Capital Goods",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "KPITTECH",
+      "yahoo_symbol": "KPITTECH.NS",
+      "name": "KPIT Technologies Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Information Technology",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "KALYANKJIL",
+      "yahoo_symbol": "KALYANKJIL.NS",
+      "name": "Kalyan Jewellers India Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Consumer Durables",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "LTF",
+      "yahoo_symbol": "LTF.NS",
+      "name": "L&T Finance Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Financial Services",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "LTTS",
+      "yahoo_symbol": "LTTS.NS",
+      "name": "L&T Technology Services Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Information Technology",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "LGEINDIA",
+      "yahoo_symbol": "LGEINDIA.NS",
+      "name": "LG Electronics India Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Consumer Durables",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "LICHSGFIN",
+      "yahoo_symbol": "LICHSGFIN.NS",
+      "name": "LIC Housing Finance Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Financial Services",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "LAURUSLABS",
+      "yahoo_symbol": "LAURUSLABS.NS",
+      "name": "Laurus Labs Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Healthcare",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "LENSKART",
+      "yahoo_symbol": "LENSKART.NS",
+      "name": "Lenskart Solutions Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Consumer Services",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "LICI",
+      "yahoo_symbol": "LICI.NS",
+      "name": "Life Insurance Corporation of India",
+      "segment": "MIDCAP150",
+      "sector": "Financial Services",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "LINDEINDIA",
+      "yahoo_symbol": "LINDEINDIA.NS",
+      "name": "Linde India Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Chemicals",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "LLOYDSME",
+      "yahoo_symbol": "LLOYDSME.NS",
+      "name": "Lloyds Metals And Energy Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Metals & Mining",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "LUPIN",
+      "yahoo_symbol": "LUPIN.NS",
+      "name": "Lupin Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Healthcare",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "MRF",
+      "yahoo_symbol": "MRF.NS",
+      "name": "MRF Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Automobile and Auto Components",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "M&MFIN",
+      "yahoo_symbol": "M&MFIN.NS",
+      "name": "Mahindra & Mahindra Financial Services Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Financial Services",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "MANKIND",
+      "yahoo_symbol": "MANKIND.NS",
+      "name": "Mankind Pharma Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Healthcare",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "MARICO",
+      "yahoo_symbol": "MARICO.NS",
+      "name": "Marico Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Fast Moving Consumer Goods",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "MFSL",
+      "yahoo_symbol": "MFSL.NS",
+      "name": "Max Financial Services Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Financial Services",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "MOTILALOFS",
+      "yahoo_symbol": "MOTILALOFS.NS",
+      "name": "Motilal Oswal Financial Services Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Financial Services",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "MPHASIS",
+      "yahoo_symbol": "MPHASIS.NS",
+      "name": "MphasiS Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Information Technology",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "MCX",
+      "yahoo_symbol": "MCX.NS",
+      "name": "Multi Commodity Exchange of India Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Financial Services",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "NHPC",
+      "yahoo_symbol": "NHPC.NS",
+      "name": "NHPC Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Power",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "NLCINDIA",
+      "yahoo_symbol": "NLCINDIA.NS",
+      "name": "NLC India Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Power",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "NMDC",
+      "yahoo_symbol": "NMDC.NS",
+      "name": "NMDC Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Metals & Mining",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "NTPCGREEN",
+      "yahoo_symbol": "NTPCGREEN.NS",
+      "name": "NTPC Green Energy Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Power",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "NATIONALUM",
+      "yahoo_symbol": "NATIONALUM.NS",
+      "name": "National Aluminium Co. Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Metals & Mining",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "NAM-INDIA",
+      "yahoo_symbol": "NAM-INDIA.NS",
+      "name": "Nippon Life India Asset Management Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Financial Services",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "OBEROIRLTY",
+      "yahoo_symbol": "OBEROIRLTY.NS",
+      "name": "Oberoi Realty Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Realty",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "OIL",
+      "yahoo_symbol": "OIL.NS",
+      "name": "Oil India Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Oil Gas & Consumable Fuels",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "PAYTM",
+      "yahoo_symbol": "PAYTM.NS",
+      "name": "One 97 Communications Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Financial Services",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "OFSS",
+      "yahoo_symbol": "OFSS.NS",
+      "name": "Oracle Financial Services Software Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Information Technology",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "POLICYBZR",
+      "yahoo_symbol": "POLICYBZR.NS",
+      "name": "PB Fintech Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Financial Services",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "PIIND",
+      "yahoo_symbol": "PIIND.NS",
+      "name": "PI Industries Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Chemicals",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "PAGEIND",
+      "yahoo_symbol": "PAGEIND.NS",
+      "name": "Page Industries Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Textiles",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "PATANJALI",
+      "yahoo_symbol": "PATANJALI.NS",
+      "name": "Patanjali Foods Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Fast Moving Consumer Goods",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "PERSISTENT",
+      "yahoo_symbol": "PERSISTENT.NS",
+      "name": "Persistent Systems Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Information Technology",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "PETRONET",
+      "yahoo_symbol": "PETRONET.NS",
+      "name": "Petronet LNG Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Oil Gas & Consumable Fuels",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "PHOENIXLTD",
+      "yahoo_symbol": "PHOENIXLTD.NS",
+      "name": "Phoenix Mills Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Realty",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "POLYCAB",
+      "yahoo_symbol": "POLYCAB.NS",
+      "name": "Polycab India Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Capital Goods",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "PREMIERENE",
+      "yahoo_symbol": "PREMIERENE.NS",
+      "name": "Premier Energies Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Capital Goods",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "PRESTIGE",
+      "yahoo_symbol": "PRESTIGE.NS",
+      "name": "Prestige Estates Projects Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Realty",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "RADICO",
+      "yahoo_symbol": "RADICO.NS",
+      "name": "Radico Khaitan Ltd",
+      "segment": "MIDCAP150",
+      "sector": "Fast Moving Consumer Goods",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "RVNL",
+      "yahoo_symbol": "RVNL.NS",
+      "name": "Rail Vikas Nigam Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Construction",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "SBICARD",
+      "yahoo_symbol": "SBICARD.NS",
+      "name": "SBI Cards and Payment Services Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Financial Services",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "SJVN",
+      "yahoo_symbol": "SJVN.NS",
+      "name": "SJVN Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Power",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "SRF",
+      "yahoo_symbol": "SRF.NS",
+      "name": "SRF Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Chemicals",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "SCHAEFFLER",
+      "yahoo_symbol": "SCHAEFFLER.NS",
+      "name": "Schaeffler India Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Automobile and Auto Components",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "SAIL",
+      "yahoo_symbol": "SAIL.NS",
+      "name": "Steel Authority of India Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Metals & Mining",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "SUNDARMFIN",
+      "yahoo_symbol": "SUNDARMFIN.NS",
+      "name": "Sundaram Finance Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Financial Services",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "SUPREMEIND",
+      "yahoo_symbol": "SUPREMEIND.NS",
+      "name": "Supreme Industries Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Capital Goods",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "SUZLON",
+      "yahoo_symbol": "SUZLON.NS",
+      "name": "Suzlon Energy Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Capital Goods",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "SWIGGY",
+      "yahoo_symbol": "SWIGGY.NS",
+      "name": "Swiggy Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Consumer Services",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "TATACOMM",
+      "yahoo_symbol": "TATACOMM.NS",
+      "name": "Tata Communications Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Telecommunication",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "TATAELXSI",
+      "yahoo_symbol": "TATAELXSI.NS",
+      "name": "Tata Elxsi Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Information Technology",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "TATAINVEST",
+      "yahoo_symbol": "TATAINVEST.NS",
+      "name": "Tata Investment Corporation Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Financial Services",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "NIACL",
+      "yahoo_symbol": "NIACL.NS",
+      "name": "The New India Assurance Company Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Financial Services",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "THERMAX",
+      "yahoo_symbol": "THERMAX.NS",
+      "name": "Thermax Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Capital Goods",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "TORNTPOWER",
+      "yahoo_symbol": "TORNTPOWER.NS",
+      "name": "Torrent Power Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Power",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "TIINDIA",
+      "yahoo_symbol": "TIINDIA.NS",
+      "name": "Tube Investments of India Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Automobile and Auto Components",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "UNOMINDA",
+      "yahoo_symbol": "UNOMINDA.NS",
+      "name": "UNO Minda Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Automobile and Auto Components",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "UPL",
+      "yahoo_symbol": "UPL.NS",
+      "name": "UPL Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Chemicals",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "UBL",
+      "yahoo_symbol": "UBL.NS",
+      "name": "United Breweries Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Fast Moving Consumer Goods",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "VMM",
+      "yahoo_symbol": "VMM.NS",
+      "name": "Vishal Mega Mart Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Consumer Services",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "IDEA",
+      "yahoo_symbol": "IDEA.NS",
+      "name": "Vodafone Idea Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Telecommunication",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "VOLTAS",
+      "yahoo_symbol": "VOLTAS.NS",
+      "name": "Voltas Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Consumer Durables",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "WAAREEENER",
+      "yahoo_symbol": "WAAREEENER.NS",
+      "name": "Waaree Energies Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Capital Goods",
+      "mapping_status": "VALIDATED"
+    },
+    {
+      "symbol": "YESBANK",
+      "yahoo_symbol": "YESBANK.NS",
+      "name": "Yes Bank Ltd.",
+      "segment": "MIDCAP150",
+      "sector": "Financial Services",
+      "mapping_status": "VALIDATED"
+    }
+  ]
+}

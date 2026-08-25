@@ -1,0 +1,166 @@
+# This workflow exists solely to diagnose Yahoo Finance connectivity from GitHub-hosted runners.
+name: Yahoo Finance GitHub Actions Diagnostic
+
+on:
+  workflow_dispatch:
+
+jobs:
+  yahoo-diagnostic:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install diagnostic dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements.txt
+
+      - name: Print runner and package information
+        run: |
+          echo "Python: $(python --version)"
+          echo "pip: $(python -m pip --version)"
+          echo "yfinance: $(python -c 'import yfinance; print(yfinance.__version__)')"
+          if command -v curl >/dev/null 2>&1; then
+            echo "curl: $(curl --version | head -n 1)"
+          else
+            echo "curl: unavailable"
+          fi
+          echo "Current UTC time: $(date -u '+%Y-%m-%dT%H:%M:%SZ')"
+
+      - name: Run Yahoo Finance connectivity diagnostics
+        run: |
+          python - <<'PY'
+          from __future__ import annotations
+
+          from datetime import datetime, timezone
+          from typing import Any
+
+          import pandas as pd
+          import requests
+          import yfinance as yf
+
+          TICKERS = ('RELIANCE.NS', 'DIVISLAB.NS', 'HDFCBANK.NS')
+          USER_AGENT = 'Indian-Market-Signal-Engine-Yahoo-Diagnostic/1.0'
+          ticker_results: dict[str, bool] = {}
+
+          def utc_now() -> str:
+              return datetime.now(timezone.utc).isoformat()
+
+          def print_response_preview(response: requests.Response) -> None:
+              preview = response.text[:200].replace('\n', '\\n').replace('\r', '\\r')
+              print(f'HTTP status code: {response.status_code}')
+              print(f'Content-Type: {response.headers.get("Content-Type", "unavailable")}')
+              print(f'Response size: {len(response.content)} bytes')
+              print(f'Response preview: {preview}')
+
+          print('========================================')
+          print('YAHOO FINANCE GITHUB ACTIONS DIAGNOSTIC')
+          print('========================================')
+          print(f'Python: {__import__("platform").python_version()}')
+          print(f'yfinance: {yf.__version__}')
+
+          print('\n[Internet connectivity]')
+          internet_ok = False
+          try:
+              response = requests.get('https://example.com', timeout=20, headers={'User-Agent': USER_AGENT})
+              internet_ok = response.status_code < 500
+              print(f'HTTP status code: {response.status_code}')
+          except Exception as error:
+              print(f'Exception type: {type(error).__name__}')
+              print(f'Exception message: {error}')
+          print(f'Internet connectivity: {"PASS" if internet_ok else "FAIL"}')
+
+          print('\n[Direct Yahoo HTTPS]')
+          yahoo_https_ok = False
+          try:
+              response = requests.get('https://finance.yahoo.com', timeout=20, headers={'User-Agent': USER_AGENT})
+              yahoo_https_ok = response.status_code < 500
+              print_response_preview(response)
+          except Exception as error:
+              print(f'Exception type: {type(error).__name__}')
+              print(f'Exception message: {error}')
+          print(f'Direct Yahoo HTTPS: {"PASS" if yahoo_https_ok else "FAIL"}')
+
+          print('\n[Direct Yahoo chart endpoint: RELIANCE.NS]')
+          try:
+              chart_url = 'https://query1.finance.yahoo.com/v8/finance/chart/RELIANCE.NS'
+              response = requests.get(
+                  chart_url,
+                  params={'range': '5d', 'interval': '1d'},
+                  timeout=20,
+                  headers={'User-Agent': USER_AGENT},
+              )
+              print_response_preview(response)
+          except Exception as error:
+              print(f'Exception type: {type(error).__name__}')
+              print(f'Exception message: {error}')
+
+          for ticker in TICKERS:
+              print(f'\n[{ticker}]')
+              started = utc_now()
+              print(f'Ticker: {ticker}')
+              print(f'Request started: {started}')
+              try:
+                  data = yf.download(
+                      ticker,
+                      period='5d',
+                      interval='1d',
+                      progress=False,
+                      auto_adjust=False,
+                      threads=False,
+                      timeout=30,
+                  )
+                  completed = utc_now()
+                  rows = len(data) if isinstance(data, pd.DataFrame) else 0
+                  columns = list(data.columns) if isinstance(data, pd.DataFrame) else []
+                  first_date = str(data.index[0]) if rows else 'unavailable'
+                  last_date = str(data.index[-1]) if rows else 'unavailable'
+                  latest_close: Any = 'unavailable'
+                  if rows and isinstance(data, pd.DataFrame):
+                      close = data['Close']
+                      if isinstance(close, pd.DataFrame):
+                          close = close.iloc[:, 0]
+                      latest_close = close.iloc[-1]
+                      if hasattr(latest_close, 'item'):
+                          latest_close = latest_close.item()
+                  passed = rows > 0 and latest_close != 'unavailable'
+                  print(f'Request completed: {completed}')
+                  print(f'Number of rows: {rows}')
+                  print(f'Returned columns: {columns}')
+                  print(f'First available date: {first_date}')
+                  print(f'Last available date: {last_date}')
+                  print(f'Latest close: {latest_close}')
+                  print(f'Result: {"PASS" if passed else "FAIL"}')
+                  ticker_results[ticker] = passed
+              except Exception as error:
+                  print(f'Request completed: {utc_now()}')
+                  print('Number of rows: unavailable')
+                  print('Returned columns: unavailable')
+                  print('First available date: unavailable')
+                  print('Last available date: unavailable')
+                  print('Latest close: unavailable')
+                  print(f'Exception type: {type(error).__name__}')
+                  print(f'Exception message: {error}')
+                  print('Result: FAIL')
+                  ticker_results[ticker] = False
+
+          print('\n========================================')
+          print('YAHOO FINANCE GITHUB ACTIONS DIAGNOSTIC')
+          print('========================================')
+          print(f'Python: {__import__("platform").python_version()}')
+          print(f'yfinance: {yf.__version__}')
+          print(f'Internet connectivity: {"PASS" if internet_ok else "FAIL"}')
+          print(f'Direct Yahoo HTTPS: {"PASS" if yahoo_https_ok else "FAIL"}')
+          for ticker in TICKERS:
+              print(f'{ticker}: {"PASS" if ticker_results.get(ticker) else "FAIL"}')
+          overall = internet_ok and yahoo_https_ok and all(ticker_results.values())
+          print(f'Overall diagnostic: {"PASS" if overall else "FAIL"}')
+          print('\nDiagnostic completed; Yahoo failures are reported but do not fail this workflow.')
+          PY

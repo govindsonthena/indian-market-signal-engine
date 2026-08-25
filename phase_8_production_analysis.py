@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import logging
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -10,7 +11,7 @@ from pathlib import Path
 import numpy as np
 
 from src.batch_downloader import BatchDownloadError, batch_download_universe, download_batch
-from src.config import HISTORY_PERIOD
+from src.config import HISTORY_PERIOD, MAX_FALLBACK_TICKERS, MIN_UNIVERSE_COVERAGE
 from src.historical_audit import audit_dataframe
 from src.indicators import calculate_all_indicators
 from src.market_regime import determine_market_regime
@@ -19,8 +20,25 @@ from src.scoring import score_universe
 from src.selection import select_top_stocks
 from src.universe import UniverseManager
 
+logging.basicConfig(level=logging.INFO, format='%(asctime)s %(levelname)s %(name)s: %(message)s')
+logger = logging.getLogger(__name__)
+
 OUTPUT_FILE = Path('data/latest.json')
 FACTOR_NAMES = ('momentum', 'trend', 'relative_strength', 'volume', 'rsi', '52_week_strength', 'risk')
+
+
+class DataSourceUnavailableError(RuntimeError):
+    """Raised when market-data coverage is too low to produce a safe analysis."""
+
+
+def validate_data_source_coverage(eligible_count: int, universe_count: int) -> None:
+    """Abort before scoring when market-data coverage is unavailable or unexpectedly low."""
+    coverage = eligible_count / universe_count if universe_count else 0.0
+    if eligible_count == 0 or coverage < MIN_UNIVERSE_COVERAGE:
+        raise DataSourceUnavailableError(
+            f'DATA_SOURCE_UNAVAILABLE: only {eligible_count}/{universe_count} '
+            f'eligible stocks ({coverage:.1%}) reached scoring inputs.'
+        )
 PRESENTATION_INDICATORS = (
     'current_price', 'return_1m', 'return_3m', 'return_6m', 'rsi_14',
     'sma_20', 'sma_50', 'sma_200', 'volatility_annualized', 'max_drawdown',
@@ -68,10 +86,29 @@ def main() -> int:
     symbols = list(entry_by_yahoo)
 
     batch = batch_download_universe(symbols, period=HISTORY_PERIOD)
+    logger.info(
+        'Market-data source result: batch=%s fallback=%s/%s errors=%s no_data=%s insufficient=%s',
+        len(batch.valid) - len(batch.fallback_successful), len(batch.fallback_successful),
+        len(batch.fallback_attempted), len(batch.download_errors), len(batch.no_data),
+        len(batch.insufficient_history),
+    )
     historical = dict(batch.valid)
-    fallback = {'successful': 0, 'insufficient_history': [], 'data_quality_problems': [], 'yahoo_problems': {}}
+    fallback = {
+        'successful': len(batch.fallback_successful),
+        'insufficient_history': [],
+        'data_quality_problems': [],
+        'yahoo_problems': {},
+    }
     ambiguous = set(batch.insufficient_history) | set(batch.no_data) | set(batch.download_errors)
-    for symbol in sorted(ambiguous):
+    already_attempted = set(batch.fallback_attempted)
+    fallback_candidates = sorted(ambiguous - already_attempted)
+    remaining_fallback_budget = max(0, MAX_FALLBACK_TICKERS - len(batch.fallback_attempted))
+    if len(fallback_candidates) > remaining_fallback_budget:
+        logger.warning(
+            'Fallback budget exhausted: %s unresolved symbols remain after %s controlled attempts',
+            len(fallback_candidates), len(batch.fallback_attempted),
+        )
+    for symbol in fallback_candidates[:remaining_fallback_budget]:
         try:
             individual = download_batch([symbol], period=HISTORY_PERIOD)
             data = individual.get(symbol)
@@ -105,6 +142,8 @@ def main() -> int:
             indicator_failures[entry['symbol']] = f'Missing indicators: {", ".join(missing)}'
         else:
             indicators[entry['symbol']] = values
+
+    validate_data_source_coverage(len(indicators), len(entries))
 
     benchmark_keys = ('current_price', 'sma_50', 'sma_200', 'return_3m', 'return_6m', 'return_12m')
     benchmark = {key: float(np.mean([values[key] for values in indicators.values()])) for key in benchmark_keys}

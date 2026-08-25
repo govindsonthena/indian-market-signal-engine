@@ -43,6 +43,9 @@ RETRY_DELAY_SECONDS = 2
 # Batch download settings for Phase 7.5 optimization
 BATCH_SIZE = 50  # Tickers per batch
 DOWNLOAD_TIMEOUT = 60  # Seconds per batch request
+BATCH_DELAY_SECONDS = 2
+RETRY_BACKOFF_FACTOR = 2
+MAX_FALLBACK_TICKERS = 25
 
 # ==============================================================================
 # UNIVERSE DEFINITION

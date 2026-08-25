@@ -3,6 +3,7 @@
 from unittest.mock import patch
 
 import pandas as pd
+import pytest
 
 from src.batch_downloader import (
     BatchDownloadResult,
@@ -10,6 +11,7 @@ from src.batch_downloader import (
     batch_download_universe,
     download_batch,
     split_into_batches,
+    classify_download_error,
 )
 
 
@@ -42,9 +44,24 @@ def test_download_batch_parses_yfinance_multiindex():
     assert all(list(frame.columns) == ['Open', 'High', 'Low', 'Close', 'Volume'] for frame in result.values())
 
 
+def test_download_batch_disables_yfinance_threads():
+    symbols = ['S1.NS']
+    with patch('src.batch_downloader.yf.download', return_value=make_multiindex_frame(symbols)) as download:
+        download_batch(symbols, retries=1)
+    assert download.call_args.kwargs['threads'] is False
+
+
 def test_download_batch_empty_response():
     with patch('src.batch_downloader.yf.download', return_value=pd.DataFrame()):
-        assert download_batch(['MISSING.NS'], retries=1) == {}
+        with pytest.raises(Exception, match='failed after 1 attempts') as error:
+            download_batch(['MISSING.NS'], retries=1)
+    assert error.value.classification == 'EMPTY_RESPONSE'
+
+
+def test_download_error_classification():
+    assert classify_download_error('Expecting value: line 1 column 1') == 'YAHOO_RATE_LIMIT_OR_JSON_ERROR'
+    assert classify_download_error('connection timed out') == 'NETWORK_ERROR'
+    assert classify_download_error('unexpected response') == 'DOWNLOAD_ERROR'
 
 
 def test_download_batch_retries_then_succeeds():
@@ -55,6 +72,16 @@ def test_download_batch_retries_then_succeeds():
     assert download.call_count == 2
 
 
+def test_download_batch_retries_empty_response_with_exponential_backoff():
+    response = make_multiindex_frame(['S1.NS'])
+    with patch('src.batch_downloader.yf.download', side_effect=[pd.DataFrame(), pd.DataFrame(), response]) as download, \
+            patch('src.batch_downloader.time.sleep') as sleep:
+        result = download_batch(['S1.NS'], retries=3, retry_delay=2, backoff_factor=2)
+    assert list(result) == ['S1.NS']
+    assert download.call_count == 3
+    assert [call.args[0] for call in sleep.call_args_list] == [2, 4]
+
+
 def test_batch_download_universe_classifies_partial_batch():
     response = make_multiindex_frame(['GOOD.NS'])
     with patch('src.batch_downloader.yf.download', return_value=response):
@@ -63,6 +90,25 @@ def test_batch_download_universe_classifies_partial_batch():
     assert result.no_data == ['MISSING.NS']
     assert result.insufficient_history == []
     assert result.download_errors == {}
+
+
+def test_failed_batch_uses_capped_individual_fallback():
+    symbols = [f'S{i}.NS' for i in range(4)]
+    with patch('src.batch_downloader.download_batch', side_effect=[
+            RuntimeError('batch unavailable'), make_multiindex_frame([symbols[0]]),
+            make_multiindex_frame([symbols[1]])]):
+        result = batch_download_universe(symbols, batch_size=4, retries=1, batch_delay=0, max_fallback_tickers=2)
+    assert result.fallback_attempted == symbols[:2]
+    assert result.fallback_successful == symbols[:2]
+    assert len(result.valid) == 2
+
+
+def test_failed_batch_does_not_fallback_beyond_global_cap():
+    symbols = [f'S{i}.NS' for i in range(4)]
+    with patch('src.batch_downloader.download_batch', side_effect=RuntimeError('batch unavailable')) as download:
+        result = batch_download_universe(symbols, batch_size=4, retries=1, batch_delay=0, max_fallback_tickers=2)
+    assert len(result.fallback_attempted) == 2
+    assert download.call_count == 3
 
 
 def test_batch_download_universe_classifies_insufficient_history():

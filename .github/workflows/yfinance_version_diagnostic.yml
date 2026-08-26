@@ -1,0 +1,170 @@
+# This workflow exists solely to compare yfinance versions on GitHub-hosted runners.
+# It is diagnostic-only and never runs production analysis or changes repository data.
+name: yfinance Version Comparison Diagnostic
+
+on:
+  workflow_dispatch:
+
+jobs:
+  yfinance-version-diagnostic:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Compare yfinance versions
+        shell: bash
+        run: |
+          set -u
+          export PYTHONUNBUFFERED=1
+          TICKERS=("RELIANCE.NS" "DIVISLAB.NS" "HDFCBANK.NS")
+          RESULTS_DIR="${RUNNER_TEMP}/yfinance-version-diagnostic"
+          mkdir -p "$RESULTS_DIR"
+
+          run_version_test() {
+            local label="$1"
+            local install_spec="$2"
+            local venv_dir="${RUNNER_TEMP}/venv-${label}"
+            local result_file="${RESULTS_DIR}/${label}.txt"
+
+            echo ""
+            echo "========================================"
+            echo "Testing ${label}"
+            echo "========================================"
+            python -m venv "$venv_dir"
+            "$venv_dir/bin/python" -m pip install --upgrade pip
+            "$venv_dir/bin/python" -m pip install "$install_spec" requests
+
+            "$venv_dir/bin/python" - "$result_file" <<'PY'
+          from __future__ import annotations
+
+          import sys
+          from datetime import datetime, timezone
+          from pathlib import Path
+
+          import pandas as pd
+          import requests
+          import yfinance as yf
+
+          output_file = Path(sys.argv[1])
+          tickers = ('RELIANCE.NS', 'DIVISLAB.NS', 'HDFCBANK.NS')
+          user_agent = 'Indian-Market-Signal-Engine-yfinance-Version-Diagnostic/1.0'
+          results: dict[str, bool] = {}
+
+          def utc_now() -> str:
+              return datetime.now(timezone.utc).isoformat()
+
+          def close_value(data: pd.DataFrame):
+              close = data['Close']
+              if isinstance(close, pd.DataFrame):
+                  close = close.iloc[:, 0]
+              value = close.iloc[-1]
+              return value.item() if hasattr(value, 'item') else value
+
+          lines = [f'Python: {sys.version.split()[0]}', f'yfinance: {yf.__version__}']
+          print(lines[0])
+          print(lines[1])
+          for ticker in tickers:
+              started = utc_now()
+              print(f'\nTicker: {ticker}')
+              print(f'Request started: {started}')
+              try:
+                  data = yf.download(
+                      ticker,
+                      period='5d',
+                      interval='1d',
+                      progress=False,
+                      auto_adjust=False,
+                      threads=False,
+                      timeout=30,
+                  )
+                  rows = len(data) if isinstance(data, pd.DataFrame) else 0
+                  columns = list(data.columns) if isinstance(data, pd.DataFrame) else []
+                  latest_close = close_value(data) if rows else 'unavailable'
+                  passed = rows > 0 and latest_close != 'unavailable'
+                  print(f'Request completed: {utc_now()}')
+                  print(f'Number of rows: {rows}')
+                  print(f'Returned columns: {columns}')
+                  print(f'Latest close: {latest_close}')
+                  print(f'Result: {"PASS" if passed else "FAIL"}')
+                  results[ticker] = passed
+              except Exception as error:
+                  print(f'Request completed: {utc_now()}')
+                  print('Number of rows: unavailable')
+                  print('Returned columns: unavailable')
+                  print('Latest close: unavailable')
+                  print(f'Exception type: {type(error).__name__}')
+                  print(f'Exception message: {error}')
+                  print('Result: FAIL')
+                  results[ticker] = False
+
+          output_file.write_text('\n'.join(f'{ticker}={"PASS" if results[ticker] else "FAIL"}' for ticker in tickers), encoding='utf-8')
+          PY
+          }
+
+          run_version_test "yfinance-0.2.32" "yfinance==0.2.32"
+          run_version_test "yfinance-latest" "yfinance"
+
+          echo ""
+          echo "[Direct Yahoo chart endpoint]"
+          chart_status="FAIL"
+          if chart_response=$(curl --silent --show-error --location --max-time 30 \
+              --user-agent "Indian-Market-Signal-Engine-yfinance-Version-Diagnostic/1.0" \
+              --write-out $'\nHTTP_STATUS:%{http_code}' \
+              "https://query1.finance.yahoo.com/v8/finance/chart/RELIANCE.NS?range=5d&interval=1d"); then
+            echo "$chart_response" | sed -n '1,3p'
+            if echo "$chart_response" | tail -n 1 | grep -q 'HTTP_STATUS:200'; then
+              chart_status="PASS"
+            fi
+          else
+            echo "Direct Yahoo chart request failed to execute"
+          fi
+
+          read_result() {
+            local result_file="$1"
+            local ticker="$2"
+            sed -n "s/^${ticker}=//p" "$result_file"
+          }
+
+          old_result="${RESULTS_DIR}/yfinance-0.2.32.txt"
+          latest_result="${RESULTS_DIR}/yfinance-latest.txt"
+          old_version=$("${RUNNER_TEMP}/venv-yfinance-0.2.32/bin/python" -c 'import yfinance; print(yfinance.__version__)')
+          latest_version=$("${RUNNER_TEMP}/venv-yfinance-latest/bin/python" -c 'import yfinance; print(yfinance.__version__)')
+          old_reliance=$(read_result "$old_result" "RELIANCE.NS")
+          old_divislab=$(read_result "$old_result" "DIVISLAB.NS")
+          old_hdfc=$(read_result "$old_result" "HDFCBANK.NS")
+          latest_reliance=$(read_result "$latest_result" "RELIANCE.NS")
+          latest_divislab=$(read_result "$latest_result" "DIVISLAB.NS")
+          latest_hdfc=$(read_result "$latest_result" "HDFCBANK.NS")
+
+          echo ""
+          echo "========================================"
+          echo "YFINANCE VERSION COMPARISON"
+          echo "========================================"
+          echo "yfinance 0.2.32"
+          echo "RELIANCE.NS: ${old_reliance:-FAIL}"
+          echo "DIVISLAB.NS: ${old_divislab:-FAIL}"
+          echo "HDFCBANK.NS: ${old_hdfc:-FAIL}"
+          echo ""
+          echo "Latest yfinance"
+          echo "Version: ${latest_version}"
+          echo "RELIANCE.NS: ${latest_reliance:-FAIL}"
+          echo "DIVISLAB.NS: ${latest_divislab:-FAIL}"
+          echo "HDFCBANK.NS: ${latest_hdfc:-FAIL}"
+          echo ""
+          echo "Direct Yahoo chart endpoint: ${chart_status}"
+          echo ""
+          echo "Conclusion:"
+          if [[ "${latest_reliance:-FAIL}" == "PASS" && "${latest_divislab:-FAIL}" == "PASS" && "${latest_hdfc:-FAIL}" == "PASS" ]]; then
+            echo "- yfinance version issue suspected"
+          else
+            echo "- yfinance still fails despite upgrade"
+          fi
+          echo ""
+          echo "Diagnostic completed; test results do not determine the workflow exit status."

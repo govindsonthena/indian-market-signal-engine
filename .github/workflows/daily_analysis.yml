@@ -3,7 +3,7 @@ name: Daily Analysis
 on:
   schedule:
     # Run at 4:30 PM IST (11:00 AM UTC) Monday-Friday.
-    - cron: '0 11 * * 1-5'
+    - cron: '15 11 * * 1-5'
   workflow_dispatch:
 
 concurrency:

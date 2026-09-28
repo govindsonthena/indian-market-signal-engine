@@ -1,5 +1,5 @@
 {
-  "analysis_timestamp": "2026-09-25T15:49:25.626023+00:00",
+  "analysis_timestamp": "2026-09-28T18:35:45.441155+00:00",
   "universe_as_of": "2026-08-21",
   "universe_count": 250,
   "yahoo_valid_count": 250,
@@ -41,11 +41,11 @@
   },
   "benchmark_metrics": {
     "current_price": 3428.5093841787243,
-    "sma_50": 3528.8801970105087,
-    "sma_200": 3371.2039550031404,
-    "return_3m": -0.010670064360414495,
-    "return_6m": 0.14592622533057337,
-    "return_12m": 0.01823834018032288
+    "sma_50": 3528.8801970117597,
+    "sma_200": 3371.203955858477,
+    "return_3m": -0.010670064321490771,
+    "return_6m": 0.14592622530395202,
+    "return_12m": 0.01823834340299362
   },
   "large_cap": [
     {
@@ -58,7 +58,7 @@
         "trend": 20.0,
         "relative_strength": 14.834016393442623,
         "volume": 7.676229508196721,
-        "rsi": 9.467502238202352,
+        "rsi": 9.467502238202355,
         "52_week_strength": 9.990638420936303,
         "risk": 13.616803278688526
       },
@@ -75,7 +75,7 @@
       "return_1m": 0.06175496688741722,
       "return_3m": 0.4681818134393684,
       "return_6m": 0.61053239023426,
-      "rsi_14": 67.28213326484706,
+      "rsi_14": 67.28213326484705,
       "sma_20": 9366.225,
       "sma_50": 8681.9601953125,
       "sma_200": 6976.750495605469,
@@ -85,9 +85,9 @@
       "52_week_low": 5666.134765625,
       "distance_from_52w_high": -0.00046758104738153783,
       "position_in_52w_range": 0.9988630234397785,
-      "volume_sma_20": 478127.7,
-      "volume_sma_60": 493698.73333333334,
-      "volume_ratio": 0.9684604551682734,
+      "volume_sma_20": 478127.95,
+      "volume_sma_60": 493698.81666666665,
+      "volume_ratio": 0.968460798079693,
       "yahoo_symbol": "DIVISLAB.NS",
       "name": "Divi's Laboratories Ltd.",
       "segment": "NIFTY100",
@@ -106,7 +106,7 @@
         "return_1m": 0.06175496688741722,
         "return_3m": 0.4681818134393684,
         "return_6m": 0.61053239023426,
-        "rsi_14": 67.28213326484706,
+        "rsi_14": 67.28213326484705,
         "sma_20": 9366.225,
         "sma_50": 8681.9601953125,
         "sma_200": 6976.750495605469,
@@ -116,21 +116,21 @@
         "52_week_low": 5666.134765625,
         "distance_from_52w_high": -0.00046758104738153783,
         "position_in_52w_range": 0.9988630234397785,
-        "volume_sma_20": 478127.7,
-        "volume_sma_60": 493698.73333333334,
-        "volume_ratio": 0.9684604551682734
+        "volume_sma_20": 478127.95,
+        "volume_sma_60": 493698.81666666665,
+        "volume_ratio": 0.968460798079693
       },
       "metrics": {
         "price": 9619.5,
         "return_1m": 0.06175496688741722,
         "return_3m": 0.4681818134393684,
         "return_6m": 0.61053239023426,
-        "rsi": 67.28213326484706
+        "rsi": 67.28213326484705
       }
     },
     {
       "symbol": "ZYDUSLIFE",
-      "overall_score": 89.87012439039356,
+      "overall_score": 89.8147965215411,
       "score_status": "OK",
       "missing_indicators": [],
       "factor_scores": {
@@ -138,9 +138,9 @@
         "trend": 20.0,
         "relative_strength": 12.842213114754099,
         "volume": 6.643442622950819,
-        "rsi": 9.900293050382308,
+        "rsi": 9.900293050382306,
         "52_week_strength": 9.974954290830906,
-        "risk": 13.091188524590164
+        "risk": 13.035860655737704
       },
       "explanations": {
         "strengths": [
@@ -154,7 +154,7 @@
       "return_1m": 0.01236131335836466,
       "return_3m": 0.08303244062640151,
       "return_6m": 0.3831288374962467,
-      "rsi_14": 65.42731549836154,
+      "rsi_14": 65.42731549836155,
       "sma_20": 1145.565008544922,
       "sma_50": 1137.3946166992187,
       "sma_200": 1007.8632315063477,
@@ -164,9 +164,9 @@
       "52_week_low": 859.8273315429688,
       "distance_from_52w_high": -0.0009128428099066666,
       "position_in_52w_range": 0.9968132598943753,
-      "volume_sma_20": 1247226.1,
-      "volume_sma_60": 1389354.2166666666,
-      "volume_ratio": 0.8977020295028436,
+      "volume_sma_20": 1247229.15,
+      "volume_sma_60": 1389355.2333333334,
+      "volume_ratio": 0.8977035678684239,
       "yahoo_symbol": "ZYDUSLIFE.NS",
       "name": "Zydus Lifesciences Ltd.",
       "segment": "NIFTY100",
@@ -174,18 +174,18 @@
       "mapping_status": "VALIDATED",
       "signal": "STRONG",
       "selection_reason": [
-        "Score 89.87",
+        "Score 89.81",
         "Top-ranked within segment",
         "Sector limit satisfied",
         "Selected after minimum score filter"
       ],
-      "score": 89.87012439039356,
+      "score": 89.8147965215411,
       "indicators": {
         "current_price": 1203.9000244140625,
         "return_1m": 0.01236131335836466,
         "return_3m": 0.08303244062640151,
         "return_6m": 0.3831288374962467,
-        "rsi_14": 65.42731549836154,
+        "rsi_14": 65.42731549836155,
         "sma_20": 1145.565008544922,
         "sma_50": 1137.3946166992187,
         "sma_200": 1007.8632315063477,
@@ -195,21 +195,21 @@
         "52_week_low": 859.8273315429688,
         "distance_from_52w_high": -0.0009128428099066666,
         "position_in_52w_range": 0.9968132598943753,
-        "volume_sma_20": 1247226.1,
-        "volume_sma_60": 1389354.2166666666,
-        "volume_ratio": 0.8977020295028436
+        "volume_sma_20": 1247229.15,
+        "volume_sma_60": 1389355.2333333334,
+        "volume_ratio": 0.8977035678684239
       },
       "metrics": {
         "price": 1203.9000244140625,
         "return_1m": 0.01236131335836466,
         "return_3m": 0.08303244062640151,
         "return_6m": 0.3831288374962467,
-        "rsi": 65.42731549836154
+        "rsi": 65.42731549836155
       }
     },
     {
       "symbol": "ADANIPORTS",
-      "overall_score": 87.80974652878213,
+      "overall_score": 87.75441865992967,
       "score_status": "OK",
       "missing_indicators": [],
       "factor_scores": {
@@ -219,7 +219,7 @@
         "volume": 9.077868852459016,
         "rsi": 10.0,
         "52_week_strength": 8.709336692716555,
-        "risk": 9.96516393442623
+        "risk": 9.90983606557377
       },
       "explanations": {
         "strengths": [
@@ -235,19 +235,19 @@
       "return_1m": 0.043173862310385065,
       "return_3m": -0.012263811606835668,
       "return_6m": 0.36792279792881605,
-      "rsi_14": 56.88879839021607,
+      "rsi_14": 56.888798390216074,
       "sma_20": 1738.310009765625,
       "sma_50": 1725.1160009765624,
       "sma_200": 1623.6047778320312,
       "volatility_annualized": 0.2861178388237144,
-      "max_drawdown": -0.2849041832664157,
+      "max_drawdown": -0.2824190380755299,
       "52_week_high": 1883.199951171875,
       "52_week_low": 1298.1290283203125,
       "distance_from_52w_high": -0.050552226869289174,
       "position_in_52w_range": 0.8372847676177747,
-      "volume_sma_20": 2361359.1,
-      "volume_sma_60": 2048996.3333333333,
-      "volume_ratio": 1.1524467182225315,
+      "volume_sma_20": 2361362.2,
+      "volume_sma_60": 2048997.3666666667,
+      "volume_ratio": 1.1524476499652572,
       "yahoo_symbol": "ADANIPORTS.NS",
       "name": "Adani Ports and Special Economic Zone Ltd.",
       "segment": "NIFTY100",
@@ -255,42 +255,42 @@
       "mapping_status": "VALIDATED",
       "signal": "STRONG",
       "selection_reason": [
-        "Score 87.81",
+        "Score 87.75",
         "Top-ranked within segment",
         "Sector limit satisfied",
         "Selected after minimum score filter"
       ],
-      "score": 87.80974652878213,
+      "score": 87.75441865992967,
       "indicators": {
         "current_price": 1788.0,
         "return_1m": 0.043173862310385065,
         "return_3m": -0.012263811606835668,
         "return_6m": 0.36792279792881605,
-        "rsi_14": 56.88879839021607,
+        "rsi_14": 56.888798390216074,
         "sma_20": 1738.310009765625,
         "sma_50": 1725.1160009765624,
         "sma_200": 1623.6047778320312,
         "volatility_annualized": 0.2861178388237144,
-        "max_drawdown": -0.2849041832664157,
+        "max_drawdown": -0.2824190380755299,
         "52_week_high": 1883.199951171875,
         "52_week_low": 1298.1290283203125,
         "distance_from_52w_high": -0.050552226869289174,
         "position_in_52w_range": 0.8372847676177747,
-        "volume_sma_20": 2361359.1,
-        "volume_sma_60": 2048996.3333333333,
-        "volume_ratio": 1.1524467182225315
+        "volume_sma_20": 2361362.2,
+        "volume_sma_60": 2048997.3666666667,
+        "volume_ratio": 1.1524476499652572
       },
       "metrics": {
         "price": 1788.0,
         "return_1m": 0.043173862310385065,
         "return_3m": -0.012263811606835668,
         "return_6m": 0.36792279792881605,
-        "rsi": 56.88879839021607
+        "rsi": 56.888798390216074
       }
     },
     {
       "symbol": "BOSCHLTD",
-      "overall_score": 87.61265034137341,
+      "overall_score": 87.52965853809474,
       "score_status": "OK",
       "missing_indicators": [],
       "factor_scores": {
@@ -300,7 +300,7 @@
         "volume": 5.389344262295081,
         "rsi": 10.0,
         "52_week_strength": 9.323715915143909,
-        "risk": 9.245901639344261
+        "risk": 9.162909836065575
       },
       "explanations": {
         "strengths": [
@@ -321,15 +321,15 @@
       "sma_20": 48025.0,
       "sma_50": 45734.27359375,
       "sma_200": 38656.0537109375,
-      "volatility_annualized": 0.28285490608101155,
+      "volatility_annualized": 0.2828549060810115,
       "max_drawdown": -0.32511161195814525,
       "52_week_high": 50000.0,
       "52_week_low": 28557.078125,
       "distance_from_52w_high": -0.03500000000000003,
       "position_in_52w_range": 0.9183879878777015,
-      "volume_sma_20": 29210.45,
-      "volume_sma_60": 34742.183333333334,
-      "volume_ratio": 0.8407776137653985,
+      "volume_sma_20": 29210.65,
+      "volume_sma_60": 34742.25,
+      "volume_ratio": 0.8407817570825149,
       "yahoo_symbol": "BOSCHLTD.NS",
       "name": "Bosch Ltd.",
       "segment": "NIFTY100",
@@ -337,12 +337,12 @@
       "mapping_status": "VALIDATED",
       "signal": "STRONG",
       "selection_reason": [
-        "Score 87.61",
+        "Score 87.53",
         "Top-ranked within segment",
         "Sector limit satisfied",
         "Selected after minimum score filter"
       ],
-      "score": 87.61265034137341,
+      "score": 87.52965853809474,
       "indicators": {
         "current_price": 48250.0,
         "return_1m": -0.013191532876572246,
@@ -352,15 +352,15 @@
         "sma_20": 48025.0,
         "sma_50": 45734.27359375,
         "sma_200": 38656.0537109375,
-        "volatility_annualized": 0.28285490608101155,
+        "volatility_annualized": 0.2828549060810115,
         "max_drawdown": -0.32511161195814525,
         "52_week_high": 50000.0,
         "52_week_low": 28557.078125,
         "distance_from_52w_high": -0.03500000000000003,
         "position_in_52w_range": 0.9183879878777015,
-        "volume_sma_20": 29210.45,
-        "volume_sma_60": 34742.183333333334,
-        "volume_ratio": 0.8407776137653985
+        "volume_sma_20": 29210.65,
+        "volume_sma_60": 34742.25,
+        "volume_ratio": 0.8407817570825149
       },
       "metrics": {
         "price": 48250.0,
@@ -372,7 +372,7 @@
     },
     {
       "symbol": "ETERNAL",
-      "overall_score": 84.05919433440289,
+      "overall_score": 84.00386646555043,
       "score_status": "OK",
       "missing_indicators": [],
       "factor_scores": {
@@ -382,7 +382,7 @@
         "volume": 7.418032786885246,
         "rsi": 10.0,
         "52_week_strength": 8.859399252435672,
-        "risk": 5.787909836065574
+        "risk": 5.732581967213115
       },
       "explanations": {
         "strengths": [
@@ -403,15 +403,15 @@
       "sma_20": 326.76499938964844,
       "sma_50": 317.685,
       "sma_200": 275.7970504760742,
-      "volatility_annualized": 0.33035503975605623,
+      "volatility_annualized": 0.3303550397560562,
       "max_drawdown": -0.39133628062426207,
       "52_week_high": 354.3500061035156,
       "52_week_low": 215.67999267578125,
       "distance_from_52w_high": -0.054607043234713326,
       "position_in_52w_range": 0.8604600545914018,
-      "volume_sma_20": 30053483.55,
-      "volume_sma_60": 31639504.8,
-      "volume_ratio": 0.949872121576315,
+      "volume_sma_20": 30053565.25,
+      "volume_sma_60": 31639532.033333335,
+      "volume_ratio": 0.9498738861983652,
       "yahoo_symbol": "ETERNAL.NS",
       "name": "Eternal Ltd.",
       "segment": "NIFTY100",
@@ -419,12 +419,12 @@
       "mapping_status": "VALIDATED",
       "signal": "STRONG",
       "selection_reason": [
-        "Score 84.06",
+        "Score 84.00",
         "Top-ranked within segment",
         "Sector limit satisfied",
         "Selected after minimum score filter"
       ],
-      "score": 84.05919433440289,
+      "score": 84.00386646555043,
       "indicators": {
         "current_price": 335.0,
         "return_1m": 0.0197869101978691,
@@ -434,15 +434,15 @@
         "sma_20": 326.76499938964844,
         "sma_50": 317.685,
         "sma_200": 275.7970504760742,
-        "volatility_annualized": 0.33035503975605623,
+        "volatility_annualized": 0.3303550397560562,
         "max_drawdown": -0.39133628062426207,
         "52_week_high": 354.3500061035156,
         "52_week_low": 215.67999267578125,
         "distance_from_52w_high": -0.054607043234713326,
         "position_in_52w_range": 0.8604600545914018,
-        "volume_sma_20": 30053483.55,
-        "volume_sma_60": 31639504.8,
-        "volume_ratio": 0.949872121576315
+        "volume_sma_20": 30053565.25,
+        "volume_sma_60": 31639532.033333335,
+        "volume_ratio": 0.9498738861983652
       },
       "metrics": {
         "price": 335.0,
@@ -456,7 +456,7 @@
   "mid_cap": [
     {
       "symbol": "LAURUSLABS",
-      "overall_score": 95.53363040764853,
+      "overall_score": 95.5059664732223,
       "score_status": "OK",
       "missing_indicators": [],
       "factor_scores": {
@@ -466,7 +466,7 @@
         "volume": 9.52049180327869,
         "rsi": 10.0,
         "52_week_strength": 9.803097620763284,
-        "risk": 11.210040983606556
+        "risk": 11.182377049180328
       },
       "explanations": {
         "strengths": [
@@ -487,14 +487,14 @@
       "sma_50": 1848.3040014648439,
       "sma_200": 1343.0972927856446,
       "volatility_annualized": 0.29356062048489406,
-      "max_drawdown": -0.18694939343476152,
+      "max_drawdown": -0.18694929796454637,
       "52_week_high": 2034.0,
       "52_week_low": 830.78662109375,
       "distance_from_52w_high": -0.013274336283185861,
       "position_in_52w_range": 0.9775600899446916,
-      "volume_sma_20": 3218191.55,
-      "volume_sma_60": 2481397.65,
-      "volume_ratio": 1.296926975811394,
+      "volume_sma_20": 3218356.05,
+      "volume_sma_60": 2481452.4833333334,
+      "volume_ratio": 1.2969646090812041,
       "yahoo_symbol": "LAURUSLABS.NS",
       "name": "Laurus Labs Ltd.",
       "segment": "MIDCAP150",
@@ -502,12 +502,12 @@
       "mapping_status": "VALIDATED",
       "signal": "STRONG",
       "selection_reason": [
-        "Score 95.53",
+        "Score 95.51",
         "Top-ranked within segment",
         "Sector limit satisfied",
         "Selected after minimum score filter"
       ],
-      "score": 95.53363040764853,
+      "score": 95.5059664732223,
       "indicators": {
         "current_price": 2007.0,
         "return_1m": 0.040219744274909375,
@@ -518,14 +518,14 @@
         "sma_50": 1848.3040014648439,
         "sma_200": 1343.0972927856446,
         "volatility_annualized": 0.29356062048489406,
-        "max_drawdown": -0.18694939343476152,
+        "max_drawdown": -0.18694929796454637,
         "52_week_high": 2034.0,
         "52_week_low": 830.78662109375,
         "distance_from_52w_high": -0.013274336283185861,
         "position_in_52w_range": 0.9775600899446916,
-        "volume_sma_20": 3218191.55,
-        "volume_sma_60": 2481397.65,
-        "volume_ratio": 1.296926975811394
+        "volume_sma_20": 3218356.05,
+        "volume_sma_60": 2481452.4833333334,
+        "volume_ratio": 1.2969646090812041
       },
       "metrics": {
         "price": 2007.0,
@@ -537,7 +537,7 @@
     },
     {
       "symbol": "AUROPHARMA",
-      "overall_score": 89.97358267929286,
+      "overall_score": 90.16723022027647,
       "score_status": "OK",
       "missing_indicators": [],
       "factor_scores": {
@@ -547,7 +547,7 @@
         "volume": 7.012295081967213,
         "rsi": 10.0,
         "52_week_strength": 9.72973022027646,
-        "risk": 10.46311475409836
+        "risk": 10.656762295081966
       },
       "explanations": {
         "strengths": [
@@ -569,7 +569,7 @@
       "sma_50": 1635.9660034179688,
       "sma_200": 1411.403998413086,
       "volatility_annualized": 0.25749146443291426,
-      "max_drawdown": -0.32795998800355974,
+      "max_drawdown": -0.3201900852471601,
       "52_week_high": 1734.0,
       "52_week_low": 1070.800048828125,
       "distance_from_52w_high": -0.012687427912341454,
@@ -584,12 +584,12 @@
       "mapping_status": "VALIDATED",
       "signal": "STRONG",
       "selection_reason": [
-        "Score 89.97",
+        "Score 90.17",
         "Top-ranked within segment",
         "Sector limit satisfied",
         "Selected after minimum score filter"
       ],
-      "score": 89.97358267929286,
+      "score": 90.16723022027647,
       "indicators": {
         "current_price": 1712.0,
         "return_1m": 0.04581551618814905,
@@ -600,7 +600,7 @@
         "sma_50": 1635.9660034179688,
         "sma_200": 1411.403998413086,
         "volatility_annualized": 0.25749146443291426,
-        "max_drawdown": -0.32795998800355974,
+        "max_drawdown": -0.3201900852471601,
         "52_week_high": 1734.0,
         "52_week_low": 1070.800048828125,
         "distance_from_52w_high": -0.012687427912341454,
@@ -655,9 +655,9 @@
       "52_week_low": 1653.7293701171875,
       "distance_from_52w_high": -0.025240516995624573,
       "position_in_52w_range": 0.9072521999351267,
-      "volume_sma_20": 640356.35,
-      "volume_sma_60": 618040.9333333333,
-      "volume_ratio": 1.0361066969242814,
+      "volume_sma_20": 640356.55,
+      "volume_sma_60": 618041.0,
+      "volume_ratio": 1.0361069087649526,
       "yahoo_symbol": "APLAPOLLO.NS",
       "name": "APL Apollo Tubes Ltd.",
       "segment": "MIDCAP150",
@@ -686,9 +686,9 @@
         "52_week_low": 1653.7293701171875,
         "distance_from_52w_high": -0.025240516995624573,
         "position_in_52w_range": 0.9072521999351267,
-        "volume_sma_20": 640356.35,
-        "volume_sma_60": 618040.9333333333,
-        "volume_ratio": 1.0361066969242814
+        "volume_sma_20": 640356.55,
+        "volume_sma_60": 618041.0,
+        "volume_ratio": 1.0361069087649526
       },
       "metrics": {
         "price": 2214.699951171875,
@@ -700,7 +700,7 @@
     },
     {
       "symbol": "JSWINFRA",
-      "overall_score": 87.6770630854517,
+      "overall_score": 88.00903029856646,
       "score_status": "OK",
       "missing_indicators": [],
       "factor_scores": {
@@ -710,7 +710,7 @@
         "volume": 9.40983606557377,
         "rsi": 10.0,
         "52_week_strength": 9.664768003484491,
-        "risk": 6.700819672131147
+        "risk": 7.032786885245901
       },
       "explanations": {
         "strengths": [
@@ -728,19 +728,19 @@
       "return_1m": 0.0713122494908319,
       "return_3m": 0.12385533028849083,
       "return_6m": 0.5080646119788745,
-      "rsi_14": 64.03935308471692,
+      "rsi_14": 64.03935308471691,
       "sma_20": 341.8425003051758,
       "sma_50": 336.6280010986328,
       "sma_200": 291.0546439361572,
       "volatility_annualized": 0.3240062207641838,
-      "max_drawdown": -0.36206408551928637,
+      "max_drawdown": -0.34867567535875105,
       "52_week_high": 367.6000061035156,
       "52_week_low": 233.6054229736328,
       "distance_from_52w_high": -0.015097982095745643,
       "position_in_52w_range": 0.9585802785388186,
-      "volume_sma_20": 4575253.75,
-      "volume_sma_60": 3649648.25,
-      "volume_ratio": 1.253614988786933,
+      "volume_sma_20": 4575265.75,
+      "volume_sma_60": 3649652.25,
+      "volume_ratio": 1.253616902815878,
       "yahoo_symbol": "JSWINFRA.NS",
       "name": "JSW Infrastructure Ltd.",
       "segment": "MIDCAP150",
@@ -748,42 +748,42 @@
       "mapping_status": "VALIDATED",
       "signal": "STRONG",
       "selection_reason": [
-        "Score 87.68",
+        "Score 88.01",
         "Top-ranked within segment",
         "Sector limit satisfied",
         "Selected after minimum score filter"
       ],
-      "score": 87.6770630854517,
+      "score": 88.00903029856646,
       "indicators": {
         "current_price": 362.04998779296875,
         "return_1m": 0.0713122494908319,
         "return_3m": 0.12385533028849083,
         "return_6m": 0.5080646119788745,
-        "rsi_14": 64.03935308471692,
+        "rsi_14": 64.03935308471691,
         "sma_20": 341.8425003051758,
         "sma_50": 336.6280010986328,
         "sma_200": 291.0546439361572,
         "volatility_annualized": 0.3240062207641838,
-        "max_drawdown": -0.36206408551928637,
+        "max_drawdown": -0.34867567535875105,
         "52_week_high": 367.6000061035156,
         "52_week_low": 233.6054229736328,
         "distance_from_52w_high": -0.015097982095745643,
         "position_in_52w_range": 0.9585802785388186,
-        "volume_sma_20": 4575253.75,
-        "volume_sma_60": 3649648.25,
-        "volume_ratio": 1.253614988786933
+        "volume_sma_20": 4575265.75,
+        "volume_sma_60": 3649652.25,
+        "volume_ratio": 1.253616902815878
       },
       "metrics": {
         "price": 362.04998779296875,
         "return_1m": 0.0713122494908319,
         "return_3m": 0.12385533028849083,
         "return_6m": 0.5080646119788745,
-        "rsi": 64.03935308471692
+        "rsi": 64.03935308471691
       }
     },
     {
       "symbol": "MAHABANK",
-      "overall_score": 86.4879952903945,
+      "overall_score": 86.32201168383712,
       "score_status": "OK",
       "missing_indicators": [],
       "factor_scores": {
@@ -793,7 +793,7 @@
         "volume": 7.823770491803279,
         "rsi": 10.0,
         "52_week_strength": 8.199060864164974,
-        "risk": 7.9733606557377055
+        "risk": 7.807377049180327
       },
       "explanations": {
         "strengths": [
@@ -811,19 +811,19 @@
       "return_1m": 0.0022434148841023924,
       "return_3m": -0.07174108719202912,
       "return_6m": 0.4050908979768728,
-      "rsi_14": 56.23966084078079,
+      "rsi_14": 56.23966084078283,
       "sma_20": 83.33099899291992,
       "sma_50": 81.62539932250976,
-      "sma_200": 74.16252918243408,
-      "volatility_annualized": 0.3525835116603575,
-      "max_drawdown": -0.2764969332592358,
+      "sma_200": 74.16252910614014,
+      "volatility_annualized": 0.35258350489666906,
+      "max_drawdown": -0.27649706768876126,
       "52_week_high": 93.8499984741211,
       "52_week_low": 52.382686614990234,
       "distance_from_52w_high": -0.09557806464084895,
       "position_in_52w_range": 0.7836850082982173,
-      "volume_sma_20": 14705880.55,
-      "volume_sma_60": 15013509.05,
-      "volume_ratio": 0.9795098867975838,
+      "volume_sma_20": 14706634.2,
+      "volume_sma_60": 15013760.266666668,
+      "volume_ratio": 0.9795436945034652,
       "yahoo_symbol": "MAHABANK.NS",
       "name": "Bank of Maharashtra",
       "segment": "MIDCAP150",
@@ -831,37 +831,37 @@
       "mapping_status": "VALIDATED",
       "signal": "STRONG",
       "selection_reason": [
-        "Score 86.49",
+        "Score 86.32",
         "Top-ranked within segment",
         "Sector limit satisfied",
         "Selected after minimum score filter"
       ],
-      "score": 86.4879952903945,
+      "score": 86.32201168383712,
       "indicators": {
         "current_price": 84.87999725341797,
         "return_1m": 0.0022434148841023924,
         "return_3m": -0.07174108719202912,
         "return_6m": 0.4050908979768728,
-        "rsi_14": 56.23966084078079,
+        "rsi_14": 56.23966084078283,
         "sma_20": 83.33099899291992,
         "sma_50": 81.62539932250976,
-        "sma_200": 74.16252918243408,
-        "volatility_annualized": 0.3525835116603575,
-        "max_drawdown": -0.2764969332592358,
+        "sma_200": 74.16252910614014,
+        "volatility_annualized": 0.35258350489666906,
+        "max_drawdown": -0.27649706768876126,
         "52_week_high": 93.8499984741211,
         "52_week_low": 52.382686614990234,
         "distance_from_52w_high": -0.09557806464084895,
         "position_in_52w_range": 0.7836850082982173,
-        "volume_sma_20": 14705880.55,
-        "volume_sma_60": 15013509.05,
-        "volume_ratio": 0.9795098867975838
+        "volume_sma_20": 14706634.2,
+        "volume_sma_60": 15013760.266666668,
+        "volume_ratio": 0.9795436945034652
       },
       "metrics": {
         "price": 84.87999725341797,
         "return_1m": 0.0022434148841023924,
         "return_3m": -0.07174108719202912,
         "return_6m": 0.4050908979768728,
-        "rsi": 56.23966084078079
+        "rsi": 56.23966084078283
       }
     }
   ],
@@ -876,7 +876,7 @@
         "trend": 20.0,
         "relative_strength": 14.834016393442623,
         "volume": 7.676229508196721,
-        "rsi": 9.467502238202352,
+        "rsi": 9.467502238202355,
         "52_week_strength": 9.990638420936303,
         "risk": 13.616803278688526
       },
@@ -893,7 +893,7 @@
       "return_1m": 0.06175496688741722,
       "return_3m": 0.4681818134393684,
       "return_6m": 0.61053239023426,
-      "rsi_14": 67.28213326484706,
+      "rsi_14": 67.28213326484705,
       "sma_20": 9366.225,
       "sma_50": 8681.9601953125,
       "sma_200": 6976.750495605469,
@@ -903,9 +903,9 @@
       "52_week_low": 5666.134765625,
       "distance_from_52w_high": -0.00046758104738153783,
       "position_in_52w_range": 0.9988630234397785,
-      "volume_sma_20": 478127.7,
-      "volume_sma_60": 493698.73333333334,
-      "volume_ratio": 0.9684604551682734,
+      "volume_sma_20": 478127.95,
+      "volume_sma_60": 493698.81666666665,
+      "volume_ratio": 0.968460798079693,
       "yahoo_symbol": "DIVISLAB.NS",
       "name": "Divi's Laboratories Ltd.",
       "segment": "NIFTY100",
@@ -924,7 +924,7 @@
         "return_1m": 0.06175496688741722,
         "return_3m": 0.4681818134393684,
         "return_6m": 0.61053239023426,
-        "rsi_14": 67.28213326484706,
+        "rsi_14": 67.28213326484705,
         "sma_20": 9366.225,
         "sma_50": 8681.9601953125,
         "sma_200": 6976.750495605469,
@@ -934,21 +934,21 @@
         "52_week_low": 5666.134765625,
         "distance_from_52w_high": -0.00046758104738153783,
         "position_in_52w_range": 0.9988630234397785,
-        "volume_sma_20": 478127.7,
-        "volume_sma_60": 493698.73333333334,
-        "volume_ratio": 0.9684604551682734
+        "volume_sma_20": 478127.95,
+        "volume_sma_60": 493698.81666666665,
+        "volume_ratio": 0.968460798079693
       },
       "metrics": {
         "price": 9619.5,
         "return_1m": 0.06175496688741722,
         "return_3m": 0.4681818134393684,
         "return_6m": 0.61053239023426,
-        "rsi": 67.28213326484706
+        "rsi": 67.28213326484705
       }
     },
     {
       "symbol": "ZYDUSLIFE",
-      "overall_score": 89.87012439039356,
+      "overall_score": 89.8147965215411,
       "score_status": "OK",
       "missing_indicators": [],
       "factor_scores": {
@@ -956,9 +956,9 @@
         "trend": 20.0,
         "relative_strength": 12.842213114754099,
         "volume": 6.643442622950819,
-        "rsi": 9.900293050382308,
+        "rsi": 9.900293050382306,
         "52_week_strength": 9.974954290830906,
-        "risk": 13.091188524590164
+        "risk": 13.035860655737704
       },
       "explanations": {
         "strengths": [
@@ -972,7 +972,7 @@
       "return_1m": 0.01236131335836466,
       "return_3m": 0.08303244062640151,
       "return_6m": 0.3831288374962467,
-      "rsi_14": 65.42731549836154,
+      "rsi_14": 65.42731549836155,
       "sma_20": 1145.565008544922,
       "sma_50": 1137.3946166992187,
       "sma_200": 1007.8632315063477,
@@ -982,9 +982,9 @@
       "52_week_low": 859.8273315429688,
       "distance_from_52w_high": -0.0009128428099066666,
       "position_in_52w_range": 0.9968132598943753,
-      "volume_sma_20": 1247226.1,
-      "volume_sma_60": 1389354.2166666666,
-      "volume_ratio": 0.8977020295028436,
+      "volume_sma_20": 1247229.15,
+      "volume_sma_60": 1389355.2333333334,
+      "volume_ratio": 0.8977035678684239,
       "yahoo_symbol": "ZYDUSLIFE.NS",
       "name": "Zydus Lifesciences Ltd.",
       "segment": "NIFTY100",
@@ -992,18 +992,18 @@
       "mapping_status": "VALIDATED",
       "signal": "STRONG",
       "selection_reason": [
-        "Score 89.87",
+        "Score 89.81",
         "Top-ranked within segment",
         "Sector limit satisfied",
         "Selected after minimum score filter"
       ],
-      "score": 89.87012439039356,
+      "score": 89.8147965215411,
       "indicators": {
         "current_price": 1203.9000244140625,
         "return_1m": 0.01236131335836466,
         "return_3m": 0.08303244062640151,
         "return_6m": 0.3831288374962467,
-        "rsi_14": 65.42731549836154,
+        "rsi_14": 65.42731549836155,
         "sma_20": 1145.565008544922,
         "sma_50": 1137.3946166992187,
         "sma_200": 1007.8632315063477,
@@ -1013,21 +1013,21 @@
         "52_week_low": 859.8273315429688,
         "distance_from_52w_high": -0.0009128428099066666,
         "position_in_52w_range": 0.9968132598943753,
-        "volume_sma_20": 1247226.1,
-        "volume_sma_60": 1389354.2166666666,
-        "volume_ratio": 0.8977020295028436
+        "volume_sma_20": 1247229.15,
+        "volume_sma_60": 1389355.2333333334,
+        "volume_ratio": 0.8977035678684239
       },
       "metrics": {
         "price": 1203.9000244140625,
         "return_1m": 0.01236131335836466,
         "return_3m": 0.08303244062640151,
         "return_6m": 0.3831288374962467,
-        "rsi": 65.42731549836154
+        "rsi": 65.42731549836155
       }
     },
     {
       "symbol": "ADANIPORTS",
-      "overall_score": 87.80974652878213,
+      "overall_score": 87.75441865992967,
       "score_status": "OK",
       "missing_indicators": [],
       "factor_scores": {
@@ -1037,7 +1037,7 @@
         "volume": 9.077868852459016,
         "rsi": 10.0,
         "52_week_strength": 8.709336692716555,
-        "risk": 9.96516393442623
+        "risk": 9.90983606557377
       },
       "explanations": {
         "strengths": [
@@ -1053,19 +1053,19 @@
       "return_1m": 0.043173862310385065,
       "return_3m": -0.012263811606835668,
       "return_6m": 0.36792279792881605,
-      "rsi_14": 56.88879839021607,
+      "rsi_14": 56.888798390216074,
       "sma_20": 1738.310009765625,
       "sma_50": 1725.1160009765624,
       "sma_200": 1623.6047778320312,
       "volatility_annualized": 0.2861178388237144,
-      "max_drawdown": -0.2849041832664157,
+      "max_drawdown": -0.2824190380755299,
       "52_week_high": 1883.199951171875,
       "52_week_low": 1298.1290283203125,
       "distance_from_52w_high": -0.050552226869289174,
       "position_in_52w_range": 0.8372847676177747,
-      "volume_sma_20": 2361359.1,
-      "volume_sma_60": 2048996.3333333333,
-      "volume_ratio": 1.1524467182225315,
+      "volume_sma_20": 2361362.2,
+      "volume_sma_60": 2048997.3666666667,
+      "volume_ratio": 1.1524476499652572,
       "yahoo_symbol": "ADANIPORTS.NS",
       "name": "Adani Ports and Special Economic Zone Ltd.",
       "segment": "NIFTY100",
@@ -1073,42 +1073,42 @@
       "mapping_status": "VALIDATED",
       "signal": "STRONG",
       "selection_reason": [
-        "Score 87.81",
+        "Score 87.75",
         "Top-ranked within segment",
         "Sector limit satisfied",
         "Selected after minimum score filter"
       ],
-      "score": 87.80974652878213,
+      "score": 87.75441865992967,
       "indicators": {
         "current_price": 1788.0,
         "return_1m": 0.043173862310385065,
         "return_3m": -0.012263811606835668,
         "return_6m": 0.36792279792881605,
-        "rsi_14": 56.88879839021607,
+        "rsi_14": 56.888798390216074,
         "sma_20": 1738.310009765625,
         "sma_50": 1725.1160009765624,
         "sma_200": 1623.6047778320312,
         "volatility_annualized": 0.2861178388237144,
-        "max_drawdown": -0.2849041832664157,
+        "max_drawdown": -0.2824190380755299,
         "52_week_high": 1883.199951171875,
         "52_week_low": 1298.1290283203125,
         "distance_from_52w_high": -0.050552226869289174,
         "position_in_52w_range": 0.8372847676177747,
-        "volume_sma_20": 2361359.1,
-        "volume_sma_60": 2048996.3333333333,
-        "volume_ratio": 1.1524467182225315
+        "volume_sma_20": 2361362.2,
+        "volume_sma_60": 2048997.3666666667,
+        "volume_ratio": 1.1524476499652572
       },
       "metrics": {
         "price": 1788.0,
         "return_1m": 0.043173862310385065,
         "return_3m": -0.012263811606835668,
         "return_6m": 0.36792279792881605,
-        "rsi": 56.88879839021607
+        "rsi": 56.888798390216074
       }
     },
     {
       "symbol": "BOSCHLTD",
-      "overall_score": 87.61265034137341,
+      "overall_score": 87.52965853809474,
       "score_status": "OK",
       "missing_indicators": [],
       "factor_scores": {
@@ -1118,7 +1118,7 @@
         "volume": 5.389344262295081,
         "rsi": 10.0,
         "52_week_strength": 9.323715915143909,
-        "risk": 9.245901639344261
+        "risk": 9.162909836065575
       },
       "explanations": {
         "strengths": [
@@ -1139,15 +1139,15 @@
       "sma_20": 48025.0,
       "sma_50": 45734.27359375,
       "sma_200": 38656.0537109375,
-      "volatility_annualized": 0.28285490608101155,
+      "volatility_annualized": 0.2828549060810115,
       "max_drawdown": -0.32511161195814525,
       "52_week_high": 50000.0,
       "52_week_low": 28557.078125,
       "distance_from_52w_high": -0.03500000000000003,
       "position_in_52w_range": 0.9183879878777015,
-      "volume_sma_20": 29210.45,
-      "volume_sma_60": 34742.183333333334,
-      "volume_ratio": 0.8407776137653985,
+      "volume_sma_20": 29210.65,
+      "volume_sma_60": 34742.25,
+      "volume_ratio": 0.8407817570825149,
       "yahoo_symbol": "BOSCHLTD.NS",
       "name": "Bosch Ltd.",
       "segment": "NIFTY100",
@@ -1155,12 +1155,12 @@
       "mapping_status": "VALIDATED",
       "signal": "STRONG",
       "selection_reason": [
-        "Score 87.61",
+        "Score 87.53",
         "Top-ranked within segment",
         "Sector limit satisfied",
         "Selected after minimum score filter"
       ],
-      "score": 87.61265034137341,
+      "score": 87.52965853809474,
       "indicators": {
         "current_price": 48250.0,
         "return_1m": -0.013191532876572246,
@@ -1170,15 +1170,15 @@
         "sma_20": 48025.0,
         "sma_50": 45734.27359375,
         "sma_200": 38656.0537109375,
-        "volatility_annualized": 0.28285490608101155,
+        "volatility_annualized": 0.2828549060810115,
         "max_drawdown": -0.32511161195814525,
         "52_week_high": 50000.0,
         "52_week_low": 28557.078125,
         "distance_from_52w_high": -0.03500000000000003,
         "position_in_52w_range": 0.9183879878777015,
-        "volume_sma_20": 29210.45,
-        "volume_sma_60": 34742.183333333334,
-        "volume_ratio": 0.8407776137653985
+        "volume_sma_20": 29210.65,
+        "volume_sma_60": 34742.25,
+        "volume_ratio": 0.8407817570825149
       },
       "metrics": {
         "price": 48250.0,
@@ -1190,7 +1190,7 @@
     },
     {
       "symbol": "ETERNAL",
-      "overall_score": 84.05919433440289,
+      "overall_score": 84.00386646555043,
       "score_status": "OK",
       "missing_indicators": [],
       "factor_scores": {
@@ -1200,7 +1200,7 @@
         "volume": 7.418032786885246,
         "rsi": 10.0,
         "52_week_strength": 8.859399252435672,
-        "risk": 5.787909836065574
+        "risk": 5.732581967213115
       },
       "explanations": {
         "strengths": [
@@ -1221,15 +1221,15 @@
       "sma_20": 326.76499938964844,
       "sma_50": 317.685,
       "sma_200": 275.7970504760742,
-      "volatility_annualized": 0.33035503975605623,
+      "volatility_annualized": 0.3303550397560562,
       "max_drawdown": -0.39133628062426207,
       "52_week_high": 354.3500061035156,
       "52_week_low": 215.67999267578125,
       "distance_from_52w_high": -0.054607043234713326,
       "position_in_52w_range": 0.8604600545914018,
-      "volume_sma_20": 30053483.55,
-      "volume_sma_60": 31639504.8,
-      "volume_ratio": 0.949872121576315,
+      "volume_sma_20": 30053565.25,
+      "volume_sma_60": 31639532.033333335,
+      "volume_ratio": 0.9498738861983652,
       "yahoo_symbol": "ETERNAL.NS",
       "name": "Eternal Ltd.",
       "segment": "NIFTY100",
@@ -1237,12 +1237,12 @@
       "mapping_status": "VALIDATED",
       "signal": "STRONG",
       "selection_reason": [
-        "Score 84.06",
+        "Score 84.00",
         "Top-ranked within segment",
         "Sector limit satisfied",
         "Selected after minimum score filter"
       ],
-      "score": 84.05919433440289,
+      "score": 84.00386646555043,
       "indicators": {
         "current_price": 335.0,
         "return_1m": 0.0197869101978691,
@@ -1252,15 +1252,15 @@
         "sma_20": 326.76499938964844,
         "sma_50": 317.685,
         "sma_200": 275.7970504760742,
-        "volatility_annualized": 0.33035503975605623,
+        "volatility_annualized": 0.3303550397560562,
         "max_drawdown": -0.39133628062426207,
         "52_week_high": 354.3500061035156,
         "52_week_low": 215.67999267578125,
         "distance_from_52w_high": -0.054607043234713326,
         "position_in_52w_range": 0.8604600545914018,
-        "volume_sma_20": 30053483.55,
-        "volume_sma_60": 31639504.8,
-        "volume_ratio": 0.949872121576315
+        "volume_sma_20": 30053565.25,
+        "volume_sma_60": 31639532.033333335,
+        "volume_ratio": 0.9498738861983652
       },
       "metrics": {
         "price": 335.0,
@@ -1272,7 +1272,7 @@
     },
     {
       "symbol": "LAURUSLABS",
-      "overall_score": 95.53363040764853,
+      "overall_score": 95.5059664732223,
       "score_status": "OK",
       "missing_indicators": [],
       "factor_scores": {
@@ -1282,7 +1282,7 @@
         "volume": 9.52049180327869,
         "rsi": 10.0,
         "52_week_strength": 9.803097620763284,
-        "risk": 11.210040983606556
+        "risk": 11.182377049180328
       },
       "explanations": {
         "strengths": [
@@ -1303,14 +1303,14 @@
       "sma_50": 1848.3040014648439,
       "sma_200": 1343.0972927856446,
       "volatility_annualized": 0.29356062048489406,
-      "max_drawdown": -0.18694939343476152,
+      "max_drawdown": -0.18694929796454637,
       "52_week_high": 2034.0,
       "52_week_low": 830.78662109375,
       "distance_from_52w_high": -0.013274336283185861,
       "position_in_52w_range": 0.9775600899446916,
-      "volume_sma_20": 3218191.55,
-      "volume_sma_60": 2481397.65,
-      "volume_ratio": 1.296926975811394,
+      "volume_sma_20": 3218356.05,
+      "volume_sma_60": 2481452.4833333334,
+      "volume_ratio": 1.2969646090812041,
       "yahoo_symbol": "LAURUSLABS.NS",
       "name": "Laurus Labs Ltd.",
       "segment": "MIDCAP150",
@@ -1318,12 +1318,12 @@
       "mapping_status": "VALIDATED",
       "signal": "STRONG",
       "selection_reason": [
-        "Score 95.53",
+        "Score 95.51",
         "Top-ranked within segment",
         "Sector limit satisfied",
         "Selected after minimum score filter"
       ],
-      "score": 95.53363040764853,
+      "score": 95.5059664732223,
       "indicators": {
         "current_price": 2007.0,
         "return_1m": 0.040219744274909375,
@@ -1334,14 +1334,14 @@
         "sma_50": 1848.3040014648439,
         "sma_200": 1343.0972927856446,
         "volatility_annualized": 0.29356062048489406,
-        "max_drawdown": -0.18694939343476152,
+        "max_drawdown": -0.18694929796454637,
         "52_week_high": 2034.0,
         "52_week_low": 830.78662109375,
         "distance_from_52w_high": -0.013274336283185861,
         "position_in_52w_range": 0.9775600899446916,
-        "volume_sma_20": 3218191.55,
-        "volume_sma_60": 2481397.65,
-        "volume_ratio": 1.296926975811394
+        "volume_sma_20": 3218356.05,
+        "volume_sma_60": 2481452.4833333334,
+        "volume_ratio": 1.2969646090812041
       },
       "metrics": {
         "price": 2007.0,
@@ -1353,7 +1353,7 @@
     },
     {
       "symbol": "AUROPHARMA",
-      "overall_score": 89.97358267929286,
+      "overall_score": 90.16723022027647,
       "score_status": "OK",
       "missing_indicators": [],
       "factor_scores": {
@@ -1363,7 +1363,7 @@
         "volume": 7.012295081967213,
         "rsi": 10.0,
         "52_week_strength": 9.72973022027646,
-        "risk": 10.46311475409836
+        "risk": 10.656762295081966
       },
       "explanations": {
         "strengths": [
@@ -1385,7 +1385,7 @@
       "sma_50": 1635.9660034179688,
       "sma_200": 1411.403998413086,
       "volatility_annualized": 0.25749146443291426,
-      "max_drawdown": -0.32795998800355974,
+      "max_drawdown": -0.3201900852471601,
       "52_week_high": 1734.0,
       "52_week_low": 1070.800048828125,
       "distance_from_52w_high": -0.012687427912341454,
@@ -1400,12 +1400,12 @@
       "mapping_status": "VALIDATED",
       "signal": "STRONG",
       "selection_reason": [
-        "Score 89.97",
+        "Score 90.17",
         "Top-ranked within segment",
         "Sector limit satisfied",
         "Selected after minimum score filter"
       ],
-      "score": 89.97358267929286,
+      "score": 90.16723022027647,
       "indicators": {
         "current_price": 1712.0,
         "return_1m": 0.04581551618814905,
@@ -1416,7 +1416,7 @@
         "sma_50": 1635.9660034179688,
         "sma_200": 1411.403998413086,
         "volatility_annualized": 0.25749146443291426,
-        "max_drawdown": -0.32795998800355974,
+        "max_drawdown": -0.3201900852471601,
         "52_week_high": 1734.0,
         "52_week_low": 1070.800048828125,
         "distance_from_52w_high": -0.012687427912341454,
@@ -1471,9 +1471,9 @@
       "52_week_low": 1653.7293701171875,
       "distance_from_52w_high": -0.025240516995624573,
       "position_in_52w_range": 0.9072521999351267,
-      "volume_sma_20": 640356.35,
-      "volume_sma_60": 618040.9333333333,
-      "volume_ratio": 1.0361066969242814,
+      "volume_sma_20": 640356.55,
+      "volume_sma_60": 618041.0,
+      "volume_ratio": 1.0361069087649526,
       "yahoo_symbol": "APLAPOLLO.NS",
       "name": "APL Apollo Tubes Ltd.",
       "segment": "MIDCAP150",
@@ -1502,9 +1502,9 @@
         "52_week_low": 1653.7293701171875,
         "distance_from_52w_high": -0.025240516995624573,
         "position_in_52w_range": 0.9072521999351267,
-        "volume_sma_20": 640356.35,
-        "volume_sma_60": 618040.9333333333,
-        "volume_ratio": 1.0361066969242814
+        "volume_sma_20": 640356.55,
+        "volume_sma_60": 618041.0,
+        "volume_ratio": 1.0361069087649526
       },
       "metrics": {
         "price": 2214.699951171875,
@@ -1516,7 +1516,7 @@
     },
     {
       "symbol": "JSWINFRA",
-      "overall_score": 87.6770630854517,
+      "overall_score": 88.00903029856646,
       "score_status": "OK",
       "missing_indicators": [],
       "factor_scores": {
@@ -1526,7 +1526,7 @@
         "volume": 9.40983606557377,
         "rsi": 10.0,
         "52_week_strength": 9.664768003484491,
-        "risk": 6.700819672131147
+        "risk": 7.032786885245901
       },
       "explanations": {
         "strengths": [
@@ -1544,19 +1544,19 @@
       "return_1m": 0.0713122494908319,
       "return_3m": 0.12385533028849083,
       "return_6m": 0.5080646119788745,
-      "rsi_14": 64.03935308471692,
+      "rsi_14": 64.03935308471691,
       "sma_20": 341.8425003051758,
       "sma_50": 336.6280010986328,
       "sma_200": 291.0546439361572,
       "volatility_annualized": 0.3240062207641838,
-      "max_drawdown": -0.36206408551928637,
+      "max_drawdown": -0.34867567535875105,
       "52_week_high": 367.6000061035156,
       "52_week_low": 233.6054229736328,
       "distance_from_52w_high": -0.015097982095745643,
       "position_in_52w_range": 0.9585802785388186,
-      "volume_sma_20": 4575253.75,
-      "volume_sma_60": 3649648.25,
-      "volume_ratio": 1.253614988786933,
+      "volume_sma_20": 4575265.75,
+      "volume_sma_60": 3649652.25,
+      "volume_ratio": 1.253616902815878,
       "yahoo_symbol": "JSWINFRA.NS",
       "name": "JSW Infrastructure Ltd.",
       "segment": "MIDCAP150",
@@ -1564,42 +1564,42 @@
       "mapping_status": "VALIDATED",
       "signal": "STRONG",
       "selection_reason": [
-        "Score 87.68",
+        "Score 88.01",
         "Top-ranked within segment",
         "Sector limit satisfied",
         "Selected after minimum score filter"
       ],
-      "score": 87.6770630854517,
+      "score": 88.00903029856646,
       "indicators": {
         "current_price": 362.04998779296875,
         "return_1m": 0.0713122494908319,
         "return_3m": 0.12385533028849083,
         "return_6m": 0.5080646119788745,
-        "rsi_14": 64.03935308471692,
+        "rsi_14": 64.03935308471691,
         "sma_20": 341.8425003051758,
         "sma_50": 336.6280010986328,
         "sma_200": 291.0546439361572,
         "volatility_annualized": 0.3240062207641838,
-        "max_drawdown": -0.36206408551928637,
+        "max_drawdown": -0.34867567535875105,
         "52_week_high": 367.6000061035156,
         "52_week_low": 233.6054229736328,
         "distance_from_52w_high": -0.015097982095745643,
         "position_in_52w_range": 0.9585802785388186,
-        "volume_sma_20": 4575253.75,
-        "volume_sma_60": 3649648.25,
-        "volume_ratio": 1.253614988786933
+        "volume_sma_20": 4575265.75,
+        "volume_sma_60": 3649652.25,
+        "volume_ratio": 1.253616902815878
       },
       "metrics": {
         "price": 362.04998779296875,
         "return_1m": 0.0713122494908319,
         "return_3m": 0.12385533028849083,
         "return_6m": 0.5080646119788745,
-        "rsi": 64.03935308471692
+        "rsi": 64.03935308471691
       }
     },
     {
       "symbol": "MAHABANK",
-      "overall_score": 86.4879952903945,
+      "overall_score": 86.32201168383712,
       "score_status": "OK",
       "missing_indicators": [],
       "factor_scores": {
@@ -1609,7 +1609,7 @@
         "volume": 7.823770491803279,
         "rsi": 10.0,
         "52_week_strength": 8.199060864164974,
-        "risk": 7.9733606557377055
+        "risk": 7.807377049180327
       },
       "explanations": {
         "strengths": [
@@ -1627,19 +1627,19 @@
       "return_1m": 0.0022434148841023924,
       "return_3m": -0.07174108719202912,
       "return_6m": 0.4050908979768728,
-      "rsi_14": 56.23966084078079,
+      "rsi_14": 56.23966084078283,
       "sma_20": 83.33099899291992,
       "sma_50": 81.62539932250976,
-      "sma_200": 74.16252918243408,
-      "volatility_annualized": 0.3525835116603575,
-      "max_drawdown": -0.2764969332592358,
+      "sma_200": 74.16252910614014,
+      "volatility_annualized": 0.35258350489666906,
+      "max_drawdown": -0.27649706768876126,
       "52_week_high": 93.8499984741211,
       "52_week_low": 52.382686614990234,
       "distance_from_52w_high": -0.09557806464084895,
       "position_in_52w_range": 0.7836850082982173,
-      "volume_sma_20": 14705880.55,
-      "volume_sma_60": 15013509.05,
-      "volume_ratio": 0.9795098867975838,
+      "volume_sma_20": 14706634.2,
+      "volume_sma_60": 15013760.266666668,
+      "volume_ratio": 0.9795436945034652,
       "yahoo_symbol": "MAHABANK.NS",
       "name": "Bank of Maharashtra",
       "segment": "MIDCAP150",
@@ -1647,37 +1647,37 @@
       "mapping_status": "VALIDATED",
       "signal": "STRONG",
       "selection_reason": [
-        "Score 86.49",
+        "Score 86.32",
         "Top-ranked within segment",
         "Sector limit satisfied",
         "Selected after minimum score filter"
       ],
-      "score": 86.4879952903945,
+      "score": 86.32201168383712,
       "indicators": {
         "current_price": 84.87999725341797,
         "return_1m": 0.0022434148841023924,
         "return_3m": -0.07174108719202912,
         "return_6m": 0.4050908979768728,
-        "rsi_14": 56.23966084078079,
+        "rsi_14": 56.23966084078283,
         "sma_20": 83.33099899291992,
         "sma_50": 81.62539932250976,
-        "sma_200": 74.16252918243408,
-        "volatility_annualized": 0.3525835116603575,
-        "max_drawdown": -0.2764969332592358,
+        "sma_200": 74.16252910614014,
+        "volatility_annualized": 0.35258350489666906,
+        "max_drawdown": -0.27649706768876126,
         "52_week_high": 93.8499984741211,
         "52_week_low": 52.382686614990234,
         "distance_from_52w_high": -0.09557806464084895,
         "position_in_52w_range": 0.7836850082982173,
-        "volume_sma_20": 14705880.55,
-        "volume_sma_60": 15013509.05,
-        "volume_ratio": 0.9795098867975838
+        "volume_sma_20": 14706634.2,
+        "volume_sma_60": 15013760.266666668,
+        "volume_ratio": 0.9795436945034652
       },
       "metrics": {
         "price": 84.87999725341797,
         "return_1m": 0.0022434148841023924,
         "return_3m": -0.07174108719202912,
         "return_6m": 0.4050908979768728,
-        "rsi": 56.23966084078079
+        "rsi": 56.23966084078283
       }
     }
   ],
@@ -1692,7 +1692,7 @@
         "trend": 20.0,
         "relative_strength": 14.834016393442623,
         "volume": 7.676229508196721,
-        "rsi": 9.467502238202352,
+        "rsi": 9.467502238202355,
         "52_week_strength": 9.990638420936303,
         "risk": 13.616803278688526
       },
@@ -1709,7 +1709,7 @@
       "return_1m": 0.06175496688741722,
       "return_3m": 0.4681818134393684,
       "return_6m": 0.61053239023426,
-      "rsi_14": 67.28213326484706,
+      "rsi_14": 67.28213326484705,
       "sma_20": 9366.225,
       "sma_50": 8681.9601953125,
       "sma_200": 6976.750495605469,
@@ -1719,9 +1719,9 @@
       "52_week_low": 5666.134765625,
       "distance_from_52w_high": -0.00046758104738153783,
       "position_in_52w_range": 0.9988630234397785,
-      "volume_sma_20": 478127.7,
-      "volume_sma_60": 493698.73333333334,
-      "volume_ratio": 0.9684604551682734,
+      "volume_sma_20": 478127.95,
+      "volume_sma_60": 493698.81666666665,
+      "volume_ratio": 0.968460798079693,
       "yahoo_symbol": "DIVISLAB.NS",
       "name": "Divi's Laboratories Ltd.",
       "segment": "NIFTY100",
@@ -1733,7 +1733,7 @@
         "return_1m": 0.06175496688741722,
         "return_3m": 0.4681818134393684,
         "return_6m": 0.61053239023426,
-        "rsi_14": 67.28213326484706,
+        "rsi_14": 67.28213326484705,
         "sma_20": 9366.225,
         "sma_50": 8681.9601953125,
         "sma_200": 6976.750495605469,
@@ -1743,21 +1743,21 @@
         "52_week_low": 5666.134765625,
         "distance_from_52w_high": -0.00046758104738153783,
         "position_in_52w_range": 0.9988630234397785,
-        "volume_sma_20": 478127.7,
-        "volume_sma_60": 493698.73333333334,
-        "volume_ratio": 0.9684604551682734
+        "volume_sma_20": 478127.95,
+        "volume_sma_60": 493698.81666666665,
+        "volume_ratio": 0.968460798079693
       },
       "metrics": {
         "price": 9619.5,
         "return_1m": 0.06175496688741722,
         "return_3m": 0.4681818134393684,
         "return_6m": 0.61053239023426,
-        "rsi": 67.28213326484706
+        "rsi": 67.28213326484705
       }
     },
     {
       "symbol": "ZYDUSLIFE",
-      "overall_score": 89.87012439039356,
+      "overall_score": 89.8147965215411,
       "score_status": "OK",
       "missing_indicators": [],
       "factor_scores": {
@@ -1765,9 +1765,9 @@
         "trend": 20.0,
         "relative_strength": 12.842213114754099,
         "volume": 6.643442622950819,
-        "rsi": 9.900293050382308,
+        "rsi": 9.900293050382306,
         "52_week_strength": 9.974954290830906,
-        "risk": 13.091188524590164
+        "risk": 13.035860655737704
       },
       "explanations": {
         "strengths": [
@@ -1781,7 +1781,7 @@
       "return_1m": 0.01236131335836466,
       "return_3m": 0.08303244062640151,
       "return_6m": 0.3831288374962467,
-      "rsi_14": 65.42731549836154,
+      "rsi_14": 65.42731549836155,
       "sma_20": 1145.565008544922,
       "sma_50": 1137.3946166992187,
       "sma_200": 1007.8632315063477,
@@ -1791,21 +1791,21 @@
       "52_week_low": 859.8273315429688,
       "distance_from_52w_high": -0.0009128428099066666,
       "position_in_52w_range": 0.9968132598943753,
-      "volume_sma_20": 1247226.1,
-      "volume_sma_60": 1389354.2166666666,
-      "volume_ratio": 0.8977020295028436,
+      "volume_sma_20": 1247229.15,
+      "volume_sma_60": 1389355.2333333334,
+      "volume_ratio": 0.8977035678684239,
       "yahoo_symbol": "ZYDUSLIFE.NS",
       "name": "Zydus Lifesciences Ltd.",
       "segment": "NIFTY100",
       "sector": "Healthcare",
       "mapping_status": "VALIDATED",
-      "score": 89.87012439039356,
+      "score": 89.8147965215411,
       "indicators": {
         "current_price": 1203.9000244140625,
         "return_1m": 0.01236131335836466,
         "return_3m": 0.08303244062640151,
         "return_6m": 0.3831288374962467,
-        "rsi_14": 65.42731549836154,
+        "rsi_14": 65.42731549836155,
         "sma_20": 1145.565008544922,
         "sma_50": 1137.3946166992187,
         "sma_200": 1007.8632315063477,
@@ -1815,21 +1815,21 @@
         "52_week_low": 859.8273315429688,
         "distance_from_52w_high": -0.0009128428099066666,
         "position_in_52w_range": 0.9968132598943753,
-        "volume_sma_20": 1247226.1,
-        "volume_sma_60": 1389354.2166666666,
-        "volume_ratio": 0.8977020295028436
+        "volume_sma_20": 1247229.15,
+        "volume_sma_60": 1389355.2333333334,
+        "volume_ratio": 0.8977035678684239
       },
       "metrics": {
         "price": 1203.9000244140625,
         "return_1m": 0.01236131335836466,
         "return_3m": 0.08303244062640151,
         "return_6m": 0.3831288374962467,
-        "rsi": 65.42731549836154
+        "rsi": 65.42731549836155
       }
     },
     {
       "symbol": "ADANIPORTS",
-      "overall_score": 87.80974652878213,
+      "overall_score": 87.75441865992967,
       "score_status": "OK",
       "missing_indicators": [],
       "factor_scores": {
@@ -1839,7 +1839,7 @@
         "volume": 9.077868852459016,
         "rsi": 10.0,
         "52_week_strength": 8.709336692716555,
-        "risk": 9.96516393442623
+        "risk": 9.90983606557377
       },
       "explanations": {
         "strengths": [
@@ -1855,55 +1855,55 @@
       "return_1m": 0.043173862310385065,
       "return_3m": -0.012263811606835668,
       "return_6m": 0.36792279792881605,
-      "rsi_14": 56.88879839021607,
+      "rsi_14": 56.888798390216074,
       "sma_20": 1738.310009765625,
       "sma_50": 1725.1160009765624,
       "sma_200": 1623.6047778320312,
       "volatility_annualized": 0.2861178388237144,
-      "max_drawdown": -0.2849041832664157,
+      "max_drawdown": -0.2824190380755299,
       "52_week_high": 1883.199951171875,
       "52_week_low": 1298.1290283203125,
       "distance_from_52w_high": -0.050552226869289174,
       "position_in_52w_range": 0.8372847676177747,
-      "volume_sma_20": 2361359.1,
-      "volume_sma_60": 2048996.3333333333,
-      "volume_ratio": 1.1524467182225315,
+      "volume_sma_20": 2361362.2,
+      "volume_sma_60": 2048997.3666666667,
+      "volume_ratio": 1.1524476499652572,
       "yahoo_symbol": "ADANIPORTS.NS",
       "name": "Adani Ports and Special Economic Zone Ltd.",
       "segment": "NIFTY100",
       "sector": "Services",
       "mapping_status": "VALIDATED",
-      "score": 87.80974652878213,
+      "score": 87.75441865992967,
       "indicators": {
         "current_price": 1788.0,
         "return_1m": 0.043173862310385065,
         "return_3m": -0.012263811606835668,
         "return_6m": 0.36792279792881605,
-        "rsi_14": 56.88879839021607,
+        "rsi_14": 56.888798390216074,
         "sma_20": 1738.310009765625,
         "sma_50": 1725.1160009765624,
         "sma_200": 1623.6047778320312,
         "volatility_annualized": 0.2861178388237144,
-        "max_drawdown": -0.2849041832664157,
+        "max_drawdown": -0.2824190380755299,
         "52_week_high": 1883.199951171875,
         "52_week_low": 1298.1290283203125,
         "distance_from_52w_high": -0.050552226869289174,
         "position_in_52w_range": 0.8372847676177747,
-        "volume_sma_20": 2361359.1,
-        "volume_sma_60": 2048996.3333333333,
-        "volume_ratio": 1.1524467182225315
+        "volume_sma_20": 2361362.2,
+        "volume_sma_60": 2048997.3666666667,
+        "volume_ratio": 1.1524476499652572
       },
       "metrics": {
         "price": 1788.0,
         "return_1m": 0.043173862310385065,
         "return_3m": -0.012263811606835668,
         "return_6m": 0.36792279792881605,
-        "rsi": 56.88879839021607
+        "rsi": 56.888798390216074
       }
     },
     {
       "symbol": "BOSCHLTD",
-      "overall_score": 87.61265034137341,
+      "overall_score": 87.52965853809474,
       "score_status": "OK",
       "missing_indicators": [],
       "factor_scores": {
@@ -1913,7 +1913,7 @@
         "volume": 5.389344262295081,
         "rsi": 10.0,
         "52_week_strength": 9.323715915143909,
-        "risk": 9.245901639344261
+        "risk": 9.162909836065575
       },
       "explanations": {
         "strengths": [
@@ -1934,21 +1934,21 @@
       "sma_20": 48025.0,
       "sma_50": 45734.27359375,
       "sma_200": 38656.0537109375,
-      "volatility_annualized": 0.28285490608101155,
+      "volatility_annualized": 0.2828549060810115,
       "max_drawdown": -0.32511161195814525,
       "52_week_high": 50000.0,
       "52_week_low": 28557.078125,
       "distance_from_52w_high": -0.03500000000000003,
       "position_in_52w_range": 0.9183879878777015,
-      "volume_sma_20": 29210.45,
-      "volume_sma_60": 34742.183333333334,
-      "volume_ratio": 0.8407776137653985,
+      "volume_sma_20": 29210.65,
+      "volume_sma_60": 34742.25,
+      "volume_ratio": 0.8407817570825149,
       "yahoo_symbol": "BOSCHLTD.NS",
       "name": "Bosch Ltd.",
       "segment": "NIFTY100",
       "sector": "Automobile and Auto Components",
       "mapping_status": "VALIDATED",
-      "score": 87.61265034137341,
+      "score": 87.52965853809474,
       "indicators": {
         "current_price": 48250.0,
         "return_1m": -0.013191532876572246,
@@ -1958,15 +1958,15 @@
         "sma_20": 48025.0,
         "sma_50": 45734.27359375,
         "sma_200": 38656.0537109375,
-        "volatility_annualized": 0.28285490608101155,
+        "volatility_annualized": 0.2828549060810115,
         "max_drawdown": -0.32511161195814525,
         "52_week_high": 50000.0,
         "52_week_low": 28557.078125,
         "distance_from_52w_high": -0.03500000000000003,
         "position_in_52w_range": 0.9183879878777015,
-        "volume_sma_20": 29210.45,
-        "volume_sma_60": 34742.183333333334,
-        "volume_ratio": 0.8407776137653985
+        "volume_sma_20": 29210.65,
+        "volume_sma_60": 34742.25,
+        "volume_ratio": 0.8407817570825149
       },
       "metrics": {
         "price": 48250.0,
@@ -1978,7 +1978,7 @@
     },
     {
       "symbol": "APOLLOHOSP",
-      "overall_score": 86.84982963731764,
+      "overall_score": 86.82216570289141,
       "score_status": "OK",
       "missing_indicators": [],
       "factor_scores": {
@@ -1988,7 +1988,7 @@
         "volume": 6.237704918032787,
         "rsi": 10.0,
         "52_week_strength": 9.390813243875018,
-        "risk": 14.778688524590164
+        "risk": 14.751024590163935
       },
       "explanations": {
         "strengths": [
@@ -2002,55 +2002,55 @@
       "return_1m": 0.010113636363636363,
       "return_3m": 0.025034259452472632,
       "return_6m": 0.19953467363404276,
-      "rsi_14": 52.291915593461724,
+      "rsi_14": 52.29191559347292,
       "sma_20": 8828.425,
       "sma_50": 8834.63857421875,
-      "sma_200": 8008.86044921875,
-      "volatility_annualized": 0.18248995139524823,
-      "max_drawdown": -0.18497189826590144,
+      "sma_200": 8008.860454101563,
+      "volatility_annualized": 0.18248993624706283,
+      "max_drawdown": -0.18497184447482015,
       "52_week_high": 9069.0,
       "52_week_low": 6776.60400390625,
       "distance_from_52w_high": -0.0198478332782005,
       "position_in_52w_range": 0.9214795348156599,
-      "volume_sma_20": 280759.65,
-      "volume_sma_60": 318782.45,
-      "volume_ratio": 0.8807249269839039,
+      "volume_sma_20": 280768.6,
+      "volume_sma_60": 318785.43333333335,
+      "volume_ratio": 0.8807447600857545,
       "yahoo_symbol": "APOLLOHOSP.NS",
       "name": "Apollo Hospitals Enterprise Ltd.",
       "segment": "NIFTY100",
       "sector": "Healthcare",
       "mapping_status": "VALIDATED",
-      "score": 86.84982963731764,
+      "score": 86.82216570289141,
       "indicators": {
         "current_price": 8889.0,
         "return_1m": 0.010113636363636363,
         "return_3m": 0.025034259452472632,
         "return_6m": 0.19953467363404276,
-        "rsi_14": 52.291915593461724,
+        "rsi_14": 52.29191559347292,
         "sma_20": 8828.425,
         "sma_50": 8834.63857421875,
-        "sma_200": 8008.86044921875,
-        "volatility_annualized": 0.18248995139524823,
-        "max_drawdown": -0.18497189826590144,
+        "sma_200": 8008.860454101563,
+        "volatility_annualized": 0.18248993624706283,
+        "max_drawdown": -0.18497184447482015,
         "52_week_high": 9069.0,
         "52_week_low": 6776.60400390625,
         "distance_from_52w_high": -0.0198478332782005,
         "position_in_52w_range": 0.9214795348156599,
-        "volume_sma_20": 280759.65,
-        "volume_sma_60": 318782.45,
-        "volume_ratio": 0.8807249269839039
+        "volume_sma_20": 280768.6,
+        "volume_sma_60": 318785.43333333335,
+        "volume_ratio": 0.8807447600857545
       },
       "metrics": {
         "price": 8889.0,
         "return_1m": 0.010113636363636363,
         "return_3m": 0.025034259452472632,
         "return_6m": 0.19953467363404276,
-        "rsi": 52.291915593461724
+        "rsi": 52.29191559347292
       }
     },
     {
       "symbol": "TORNTPHARM",
-      "overall_score": 84.72275665849081,
+      "overall_score": 84.7227565730476,
       "score_status": "OK",
       "missing_indicators": [],
       "factor_scores": {
@@ -2059,7 +2059,7 @@
         "relative_strength": 12.454918032786885,
         "volume": 1.7008196721311475,
         "rsi": 10.0,
-        "52_week_strength": 9.347756658490798,
+        "52_week_strength": 9.3477565730476,
         "risk": 14.391393442622952
       },
       "explanations": {
@@ -2075,55 +2075,55 @@
       "return_1m": -0.0021004200840168035,
       "return_3m": 0.07973851097525725,
       "return_6m": 0.1844020075522025,
-      "rsi_14": 54.15454455439548,
+      "rsi_14": 54.15454455441161,
       "sma_20": 4932.775,
       "sma_50": 4950.127998046875,
-      "sma_200": 4419.633129882813,
-      "volatility_annualized": 0.2173860261243516,
-      "max_drawdown": -0.16981841885995239,
+      "sma_200": 4419.633125,
+      "volatility_annualized": 0.21738603712541105,
+      "max_drawdown": -0.16981836081981452,
       "52_week_high": 5122.7998046875,
-      "52_week_low": 3483.841064453125,
+      "52_week_low": 3483.84130859375,
       "distance_from_52w_high": -0.026216094676315915,
-      "position_in_52w_range": 0.9180578489313924,
-      "volume_sma_20": 320442.35,
-      "volume_sma_60": 535490.9666666667,
-      "volume_ratio": 0.5984085072334553,
+      "position_in_52w_range": 0.9180578367252212,
+      "volume_sma_20": 320442.65,
+      "volume_sma_60": 535491.0666666667,
+      "volume_ratio": 0.5984089557174064,
       "yahoo_symbol": "TORNTPHARM.NS",
       "name": "Torrent Pharmaceuticals Ltd.",
       "segment": "NIFTY100",
       "sector": "Healthcare",
       "mapping_status": "VALIDATED",
-      "score": 84.72275665849081,
+      "score": 84.7227565730476,
       "indicators": {
         "current_price": 4988.5,
         "return_1m": -0.0021004200840168035,
         "return_3m": 0.07973851097525725,
         "return_6m": 0.1844020075522025,
-        "rsi_14": 54.15454455439548,
+        "rsi_14": 54.15454455441161,
         "sma_20": 4932.775,
         "sma_50": 4950.127998046875,
-        "sma_200": 4419.633129882813,
-        "volatility_annualized": 0.2173860261243516,
-        "max_drawdown": -0.16981841885995239,
+        "sma_200": 4419.633125,
+        "volatility_annualized": 0.21738603712541105,
+        "max_drawdown": -0.16981836081981452,
         "52_week_high": 5122.7998046875,
-        "52_week_low": 3483.841064453125,
+        "52_week_low": 3483.84130859375,
         "distance_from_52w_high": -0.026216094676315915,
-        "position_in_52w_range": 0.9180578489313924,
-        "volume_sma_20": 320442.35,
-        "volume_sma_60": 535490.9666666667,
-        "volume_ratio": 0.5984085072334553
+        "position_in_52w_range": 0.9180578367252212,
+        "volume_sma_20": 320442.65,
+        "volume_sma_60": 535491.0666666667,
+        "volume_ratio": 0.5984089557174064
       },
       "metrics": {
         "price": 4988.5,
         "return_1m": -0.0021004200840168035,
         "return_3m": 0.07973851097525725,
         "return_6m": 0.1844020075522025,
-        "rsi": 54.15454455439548
+        "rsi": 54.15454455441161
       }
     },
     {
       "symbol": "ETERNAL",
-      "overall_score": 84.05919433440289,
+      "overall_score": 84.00386646555043,
       "score_status": "OK",
       "missing_indicators": [],
       "factor_scores": {
@@ -2133,7 +2133,7 @@
         "volume": 7.418032786885246,
         "rsi": 10.0,
         "52_week_strength": 8.859399252435672,
-        "risk": 5.787909836065574
+        "risk": 5.732581967213115
       },
       "explanations": {
         "strengths": [
@@ -2154,21 +2154,21 @@
       "sma_20": 326.76499938964844,
       "sma_50": 317.685,
       "sma_200": 275.7970504760742,
-      "volatility_annualized": 0.33035503975605623,
+      "volatility_annualized": 0.3303550397560562,
       "max_drawdown": -0.39133628062426207,
       "52_week_high": 354.3500061035156,
       "52_week_low": 215.67999267578125,
       "distance_from_52w_high": -0.054607043234713326,
       "position_in_52w_range": 0.8604600545914018,
-      "volume_sma_20": 30053483.55,
-      "volume_sma_60": 31639504.8,
-      "volume_ratio": 0.949872121576315,
+      "volume_sma_20": 30053565.25,
+      "volume_sma_60": 31639532.033333335,
+      "volume_ratio": 0.9498738861983652,
       "yahoo_symbol": "ETERNAL.NS",
       "name": "Eternal Ltd.",
       "segment": "NIFTY100",
       "sector": "Consumer Services",
       "mapping_status": "VALIDATED",
-      "score": 84.05919433440289,
+      "score": 84.00386646555043,
       "indicators": {
         "current_price": 335.0,
         "return_1m": 0.0197869101978691,
@@ -2178,15 +2178,15 @@
         "sma_20": 326.76499938964844,
         "sma_50": 317.685,
         "sma_200": 275.7970504760742,
-        "volatility_annualized": 0.33035503975605623,
+        "volatility_annualized": 0.3303550397560562,
         "max_drawdown": -0.39133628062426207,
         "52_week_high": 354.3500061035156,
         "52_week_low": 215.67999267578125,
         "distance_from_52w_high": -0.054607043234713326,
         "position_in_52w_range": 0.8604600545914018,
-        "volume_sma_20": 30053483.55,
-        "volume_sma_60": 31639504.8,
-        "volume_ratio": 0.949872121576315
+        "volume_sma_20": 30053565.25,
+        "volume_sma_60": 31639532.033333335,
+        "volume_ratio": 0.9498738861983652
       },
       "metrics": {
         "price": 335.0,
@@ -2198,7 +2198,7 @@
     },
     {
       "symbol": "SOLARINDS",
-      "overall_score": 82.40255922887525,
+      "overall_score": 82.37489529444902,
       "score_status": "OK",
       "missing_indicators": [],
       "factor_scores": {
@@ -2208,7 +2208,7 @@
         "volume": 9.815573770491802,
         "rsi": 9.553524704472274,
         "52_week_strength": 7.863378786698051,
-        "risk": 6.534836065573771
+        "risk": 6.5071721311475414
       },
       "explanations": {
         "strengths": [
@@ -2236,15 +2236,15 @@
       "52_week_low": 11765.048828125,
       "distance_from_52w_high": -0.12068581607659767,
       "position_in_52w_range": 0.7464908907039778,
-      "volume_sma_20": 255315.7,
-      "volume_sma_60": 174481.33333333334,
-      "volume_ratio": 1.4632837514614743,
+      "volume_sma_20": 255316.8,
+      "volume_sma_60": 174481.7,
+      "volume_ratio": 1.4632869808123143,
       "yahoo_symbol": "SOLARINDS.NS",
       "name": "Solar Industries India Ltd.",
       "segment": "NIFTY100",
       "sector": "Chemicals",
       "mapping_status": "VALIDATED",
-      "score": 82.40255922887525,
+      "score": 82.37489529444902,
       "indicators": {
         "current_price": 19745.0,
         "return_1m": -0.04057337220602527,
@@ -2260,9 +2260,9 @@
         "52_week_low": 11765.048828125,
         "distance_from_52w_high": -0.12068581607659767,
         "position_in_52w_range": 0.7464908907039778,
-        "volume_sma_20": 255315.7,
-        "volume_sma_60": 174481.33333333334,
-        "volume_ratio": 1.4632837514614743
+        "volume_sma_20": 255316.8,
+        "volume_sma_60": 174481.7,
+        "volume_ratio": 1.4632869808123143
       },
       "metrics": {
         "price": 19745.0,
@@ -2274,7 +2274,7 @@
     },
     {
       "symbol": "MOTHERSON",
-      "overall_score": 80.720689304716,
+      "overall_score": 80.7206893596189,
       "score_status": "OK",
       "missing_indicators": [],
       "factor_scores": {
@@ -2283,7 +2283,7 @@
         "relative_strength": 14.557377049180326,
         "volume": 3.0655737704918034,
         "rsi": 10.0,
-        "52_week_strength": 9.412287665371736,
+        "52_week_strength": 9.412287720274632,
         "risk": 4.349385245901639
       },
       "explanations": {
@@ -2301,55 +2301,55 @@
       "return_1m": -0.0017469475068241716,
       "return_3m": 0.12077566552166984,
       "return_6m": 0.5797304908581945,
-      "rsi_14": 56.4112264437989,
+      "rsi_14": 56.411226444023036,
       "sma_20": 163.10400009155273,
       "sma_50": 160.63280029296874,
-      "sma_200": 135.37967212677003,
-      "volatility_annualized": 0.3323931117966882,
-      "max_drawdown": -0.47261743403999,
+      "sma_200": 135.37967220306396,
+      "volatility_annualized": 0.33239309477455364,
+      "max_drawdown": -0.47052513680472335,
       "52_week_high": 170.67999267578125,
-      "52_week_low": 101.14971160888672,
+      "52_week_low": 101.14970397949219,
       "distance_from_52w_high": -0.029118737843836784,
-      "position_in_52w_range": 0.9285205541290351,
-      "volume_sma_20": 11373348.9,
-      "volume_sma_60": 15870388.8,
-      "volume_ratio": 0.7166395885650892,
+      "position_in_52w_range": 0.928520561972306,
+      "volume_sma_20": 11373608.45,
+      "volume_sma_60": 15870475.316666666,
+      "volume_ratio": 0.716652036127475,
       "yahoo_symbol": "MOTHERSON.NS",
       "name": "Samvardhana Motherson International Ltd.",
       "segment": "NIFTY100",
       "sector": "Automobile and Auto Components",
       "mapping_status": "VALIDATED",
-      "score": 80.720689304716,
+      "score": 80.7206893596189,
       "indicators": {
         "current_price": 165.7100067138672,
         "return_1m": -0.0017469475068241716,
         "return_3m": 0.12077566552166984,
         "return_6m": 0.5797304908581945,
-        "rsi_14": 56.4112264437989,
+        "rsi_14": 56.411226444023036,
         "sma_20": 163.10400009155273,
         "sma_50": 160.63280029296874,
-        "sma_200": 135.37967212677003,
-        "volatility_annualized": 0.3323931117966882,
-        "max_drawdown": -0.47261743403999,
+        "sma_200": 135.37967220306396,
+        "volatility_annualized": 0.33239309477455364,
+        "max_drawdown": -0.47052513680472335,
         "52_week_high": 170.67999267578125,
-        "52_week_low": 101.14971160888672,
+        "52_week_low": 101.14970397949219,
         "distance_from_52w_high": -0.029118737843836784,
-        "position_in_52w_range": 0.9285205541290351,
-        "volume_sma_20": 11373348.9,
-        "volume_sma_60": 15870388.8,
-        "volume_ratio": 0.7166395885650892
+        "position_in_52w_range": 0.928520561972306,
+        "volume_sma_20": 11373608.45,
+        "volume_sma_60": 15870475.316666666,
+        "volume_ratio": 0.716652036127475
       },
       "metrics": {
         "price": 165.7100067138672,
         "return_1m": -0.0017469475068241716,
         "return_3m": 0.12077566552166984,
         "return_6m": 0.5797304908581945,
-        "rsi": 56.4112264437989
+        "rsi": 56.411226444023036
       }
     },
     {
       "symbol": "PNB",
-      "overall_score": 80.12744148954714,
+      "overall_score": 80.04444968626845,
       "score_status": "OK",
       "missing_indicators": [],
       "factor_scores": {
@@ -2359,7 +2359,7 @@
         "volume": 4.983606557377049,
         "rsi": 10.0,
         "52_week_strength": 7.08543329282583,
-        "risk": 11.707991803278688
+        "risk": 11.625
       },
       "explanations": {
         "strengths": [
@@ -2383,15 +2383,15 @@
       "52_week_low": 96.67874908447266,
       "distance_from_52w_high": -0.09345334655398274,
       "position_in_52w_range": 0.6236847617839684,
-      "volume_sma_20": 12484549.9,
-      "volume_sma_60": 15182499.583333334,
-      "volume_ratio": 0.8222987151407518,
+      "volume_sma_20": 12484669.9,
+      "volume_sma_60": 15182539.583333334,
+      "volume_ratio": 0.8223044525242058,
       "yahoo_symbol": "PNB.NS",
       "name": "Punjab National Bank",
       "segment": "NIFTY100",
       "sector": "Financial Services",
       "mapping_status": "VALIDATED",
-      "score": 80.12744148954714,
+      "score": 80.04444968626845,
       "indicators": {
         "current_price": 116.5999984741211,
         "return_1m": 0.010398586935660339,
@@ -2407,9 +2407,9 @@
         "52_week_low": 96.67874908447266,
         "distance_from_52w_high": -0.09345334655398274,
         "position_in_52w_range": 0.6236847617839684,
-        "volume_sma_20": 12484549.9,
-        "volume_sma_60": 15182499.583333334,
-        "volume_ratio": 0.8222987151407518
+        "volume_sma_20": 12484669.9,
+        "volume_sma_60": 15182539.583333334,
+        "volume_ratio": 0.8223044525242058
       },
       "metrics": {
         "price": 116.5999984741211,
@@ -2423,7 +2423,7 @@
   "top_10_midcap150": [
     {
       "symbol": "LAURUSLABS",
-      "overall_score": 95.53363040764853,
+      "overall_score": 95.5059664732223,
       "score_status": "OK",
       "missing_indicators": [],
       "factor_scores": {
@@ -2433,7 +2433,7 @@
         "volume": 9.52049180327869,
         "rsi": 10.0,
         "52_week_strength": 9.803097620763284,
-        "risk": 11.210040983606556
+        "risk": 11.182377049180328
       },
       "explanations": {
         "strengths": [
@@ -2454,20 +2454,20 @@
       "sma_50": 1848.3040014648439,
       "sma_200": 1343.0972927856446,
       "volatility_annualized": 0.29356062048489406,
-      "max_drawdown": -0.18694939343476152,
+      "max_drawdown": -0.18694929796454637,
       "52_week_high": 2034.0,
       "52_week_low": 830.78662109375,
       "distance_from_52w_high": -0.013274336283185861,
       "position_in_52w_range": 0.9775600899446916,
-      "volume_sma_20": 3218191.55,
-      "volume_sma_60": 2481397.65,
-      "volume_ratio": 1.296926975811394,
+      "volume_sma_20": 3218356.05,
+      "volume_sma_60": 2481452.4833333334,
+      "volume_ratio": 1.2969646090812041,
       "yahoo_symbol": "LAURUSLABS.NS",
       "name": "Laurus Labs Ltd.",
       "segment": "MIDCAP150",
       "sector": "Healthcare",
       "mapping_status": "VALIDATED",
-      "score": 95.53363040764853,
+      "score": 95.5059664732223,
       "indicators": {
         "current_price": 2007.0,
         "return_1m": 0.040219744274909375,
@@ -2478,14 +2478,14 @@
         "sma_50": 1848.3040014648439,
         "sma_200": 1343.0972927856446,
         "volatility_annualized": 0.29356062048489406,
-        "max_drawdown": -0.18694939343476152,
+        "max_drawdown": -0.18694929796454637,
         "52_week_high": 2034.0,
         "52_week_low": 830.78662109375,
         "distance_from_52w_high": -0.013274336283185861,
         "position_in_52w_range": 0.9775600899446916,
-        "volume_sma_20": 3218191.55,
-        "volume_sma_60": 2481397.65,
-        "volume_ratio": 1.296926975811394
+        "volume_sma_20": 3218356.05,
+        "volume_sma_60": 2481452.4833333334,
+        "volume_ratio": 1.2969646090812041
       },
       "metrics": {
         "price": 2007.0,
@@ -2497,7 +2497,7 @@
     },
     {
       "symbol": "AUROPHARMA",
-      "overall_score": 89.97358267929286,
+      "overall_score": 90.16723022027647,
       "score_status": "OK",
       "missing_indicators": [],
       "factor_scores": {
@@ -2507,7 +2507,7 @@
         "volume": 7.012295081967213,
         "rsi": 10.0,
         "52_week_strength": 9.72973022027646,
-        "risk": 10.46311475409836
+        "risk": 10.656762295081966
       },
       "explanations": {
         "strengths": [
@@ -2529,7 +2529,7 @@
       "sma_50": 1635.9660034179688,
       "sma_200": 1411.403998413086,
       "volatility_annualized": 0.25749146443291426,
-      "max_drawdown": -0.32795998800355974,
+      "max_drawdown": -0.3201900852471601,
       "52_week_high": 1734.0,
       "52_week_low": 1070.800048828125,
       "distance_from_52w_high": -0.012687427912341454,
@@ -2542,7 +2542,7 @@
       "segment": "MIDCAP150",
       "sector": "Healthcare",
       "mapping_status": "VALIDATED",
-      "score": 89.97358267929286,
+      "score": 90.16723022027647,
       "indicators": {
         "current_price": 1712.0,
         "return_1m": 0.04581551618814905,
@@ -2553,7 +2553,7 @@
         "sma_50": 1635.9660034179688,
         "sma_200": 1411.403998413086,
         "volatility_annualized": 0.25749146443291426,
-        "max_drawdown": -0.32795998800355974,
+        "max_drawdown": -0.3201900852471601,
         "52_week_high": 1734.0,
         "52_week_low": 1070.800048828125,
         "distance_from_52w_high": -0.012687427912341454,
@@ -2608,9 +2608,9 @@
       "52_week_low": 1653.7293701171875,
       "distance_from_52w_high": -0.025240516995624573,
       "position_in_52w_range": 0.9072521999351267,
-      "volume_sma_20": 640356.35,
-      "volume_sma_60": 618040.9333333333,
-      "volume_ratio": 1.0361066969242814,
+      "volume_sma_20": 640356.55,
+      "volume_sma_60": 618041.0,
+      "volume_ratio": 1.0361069087649526,
       "yahoo_symbol": "APLAPOLLO.NS",
       "name": "APL Apollo Tubes Ltd.",
       "segment": "MIDCAP150",
@@ -2632,9 +2632,9 @@
         "52_week_low": 1653.7293701171875,
         "distance_from_52w_high": -0.025240516995624573,
         "position_in_52w_range": 0.9072521999351267,
-        "volume_sma_20": 640356.35,
-        "volume_sma_60": 618040.9333333333,
-        "volume_ratio": 1.0361066969242814
+        "volume_sma_20": 640356.55,
+        "volume_sma_60": 618041.0,
+        "volume_ratio": 1.0361069087649526
       },
       "metrics": {
         "price": 2214.699951171875,
@@ -2646,7 +2646,7 @@
     },
     {
       "symbol": "MEDANTA",
-      "overall_score": 88.67985665897243,
+      "overall_score": 88.59686485569374,
       "score_status": "OK",
       "missing_indicators": [],
       "factor_scores": {
@@ -2656,7 +2656,7 @@
         "volume": 8.37704918032787,
         "rsi": 10.0,
         "52_week_strength": 9.800758298316692,
-        "risk": 8.415983606557376
+        "risk": 8.33299180327869
       },
       "explanations": {
         "strengths": [
@@ -2674,7 +2674,7 @@
       "return_1m": 0.025018849399676638,
       "return_3m": 0.14657039717949108,
       "return_6m": 0.47921523926592974,
-      "rsi_14": 56.91472851348055,
+      "rsi_14": 56.91472851348057,
       "sma_20": 1461.0049926757813,
       "sma_50": 1431.4189794921874,
       "sma_200": 1231.3611978149413,
@@ -2684,21 +2684,21 @@
       "52_week_low": 960.7592163085938,
       "distance_from_52w_high": -0.008946914826409635,
       "position_in_52w_range": 0.9753712918279888,
-      "volume_sma_20": 265324.35,
-      "volume_sma_60": 254353.63333333333,
-      "volume_ratio": 1.0431317474136075,
+      "volume_sma_20": 265324.7,
+      "volume_sma_60": 254353.75,
+      "volume_ratio": 1.043132644987542,
       "yahoo_symbol": "MEDANTA.NS",
       "name": "Global Health Ltd.",
       "segment": "MIDCAP150",
       "sector": "Healthcare",
       "mapping_status": "VALIDATED",
-      "score": 88.67985665897243,
+      "score": 88.59686485569374,
       "indicators": {
         "current_price": 1495.4000244140625,
         "return_1m": 0.025018849399676638,
         "return_3m": 0.14657039717949108,
         "return_6m": 0.47921523926592974,
-        "rsi_14": 56.91472851348055,
+        "rsi_14": 56.91472851348057,
         "sma_20": 1461.0049926757813,
         "sma_50": 1431.4189794921874,
         "sma_200": 1231.3611978149413,
@@ -2708,21 +2708,21 @@
         "52_week_low": 960.7592163085938,
         "distance_from_52w_high": -0.008946914826409635,
         "position_in_52w_range": 0.9753712918279888,
-        "volume_sma_20": 265324.35,
-        "volume_sma_60": 254353.63333333333,
-        "volume_ratio": 1.0431317474136075
+        "volume_sma_20": 265324.7,
+        "volume_sma_60": 254353.75,
+        "volume_ratio": 1.043132644987542
       },
       "metrics": {
         "price": 1495.4000244140625,
         "return_1m": 0.025018849399676638,
         "return_3m": 0.14657039717949108,
         "return_6m": 0.47921523926592974,
-        "rsi": 56.91472851348055
+        "rsi": 56.91472851348057
       }
     },
     {
       "symbol": "JSWINFRA",
-      "overall_score": 87.6770630854517,
+      "overall_score": 88.00903029856646,
       "score_status": "OK",
       "missing_indicators": [],
       "factor_scores": {
@@ -2732,7 +2732,7 @@
         "volume": 9.40983606557377,
         "rsi": 10.0,
         "52_week_strength": 9.664768003484491,
-        "risk": 6.700819672131147
+        "risk": 7.032786885245901
       },
       "explanations": {
         "strengths": [
@@ -2750,55 +2750,55 @@
       "return_1m": 0.0713122494908319,
       "return_3m": 0.12385533028849083,
       "return_6m": 0.5080646119788745,
-      "rsi_14": 64.03935308471692,
+      "rsi_14": 64.03935308471691,
       "sma_20": 341.8425003051758,
       "sma_50": 336.6280010986328,
       "sma_200": 291.0546439361572,
       "volatility_annualized": 0.3240062207641838,
-      "max_drawdown": -0.36206408551928637,
+      "max_drawdown": -0.34867567535875105,
       "52_week_high": 367.6000061035156,
       "52_week_low": 233.6054229736328,
       "distance_from_52w_high": -0.015097982095745643,
       "position_in_52w_range": 0.9585802785388186,
-      "volume_sma_20": 4575253.75,
-      "volume_sma_60": 3649648.25,
-      "volume_ratio": 1.253614988786933,
+      "volume_sma_20": 4575265.75,
+      "volume_sma_60": 3649652.25,
+      "volume_ratio": 1.253616902815878,
       "yahoo_symbol": "JSWINFRA.NS",
       "name": "JSW Infrastructure Ltd.",
       "segment": "MIDCAP150",
       "sector": "Services",
       "mapping_status": "VALIDATED",
-      "score": 87.6770630854517,
+      "score": 88.00903029856646,
       "indicators": {
         "current_price": 362.04998779296875,
         "return_1m": 0.0713122494908319,
         "return_3m": 0.12385533028849083,
         "return_6m": 0.5080646119788745,
-        "rsi_14": 64.03935308471692,
+        "rsi_14": 64.03935308471691,
         "sma_20": 341.8425003051758,
         "sma_50": 336.6280010986328,
         "sma_200": 291.0546439361572,
         "volatility_annualized": 0.3240062207641838,
-        "max_drawdown": -0.36206408551928637,
+        "max_drawdown": -0.34867567535875105,
         "52_week_high": 367.6000061035156,
         "52_week_low": 233.6054229736328,
         "distance_from_52w_high": -0.015097982095745643,
         "position_in_52w_range": 0.9585802785388186,
-        "volume_sma_20": 4575253.75,
-        "volume_sma_60": 3649648.25,
-        "volume_ratio": 1.253614988786933
+        "volume_sma_20": 4575265.75,
+        "volume_sma_60": 3649652.25,
+        "volume_ratio": 1.253616902815878
       },
       "metrics": {
         "price": 362.04998779296875,
         "return_1m": 0.0713122494908319,
         "return_3m": 0.12385533028849083,
         "return_6m": 0.5080646119788745,
-        "rsi": 64.03935308471692
+        "rsi": 64.03935308471691
       }
     },
     {
       "symbol": "MAHABANK",
-      "overall_score": 86.4879952903945,
+      "overall_score": 86.32201168383712,
       "score_status": "OK",
       "missing_indicators": [],
       "factor_scores": {
@@ -2808,7 +2808,7 @@
         "volume": 7.823770491803279,
         "rsi": 10.0,
         "52_week_strength": 8.199060864164974,
-        "risk": 7.9733606557377055
+        "risk": 7.807377049180327
       },
       "explanations": {
         "strengths": [
@@ -2826,55 +2826,55 @@
       "return_1m": 0.0022434148841023924,
       "return_3m": -0.07174108719202912,
       "return_6m": 0.4050908979768728,
-      "rsi_14": 56.23966084078079,
+      "rsi_14": 56.23966084078283,
       "sma_20": 83.33099899291992,
       "sma_50": 81.62539932250976,
-      "sma_200": 74.16252918243408,
-      "volatility_annualized": 0.3525835116603575,
-      "max_drawdown": -0.2764969332592358,
+      "sma_200": 74.16252910614014,
+      "volatility_annualized": 0.35258350489666906,
+      "max_drawdown": -0.27649706768876126,
       "52_week_high": 93.8499984741211,
       "52_week_low": 52.382686614990234,
       "distance_from_52w_high": -0.09557806464084895,
       "position_in_52w_range": 0.7836850082982173,
-      "volume_sma_20": 14705880.55,
-      "volume_sma_60": 15013509.05,
-      "volume_ratio": 0.9795098867975838,
+      "volume_sma_20": 14706634.2,
+      "volume_sma_60": 15013760.266666668,
+      "volume_ratio": 0.9795436945034652,
       "yahoo_symbol": "MAHABANK.NS",
       "name": "Bank of Maharashtra",
       "segment": "MIDCAP150",
       "sector": "Financial Services",
       "mapping_status": "VALIDATED",
-      "score": 86.4879952903945,
+      "score": 86.32201168383712,
       "indicators": {
         "current_price": 84.87999725341797,
         "return_1m": 0.0022434148841023924,
         "return_3m": -0.07174108719202912,
         "return_6m": 0.4050908979768728,
-        "rsi_14": 56.23966084078079,
+        "rsi_14": 56.23966084078283,
         "sma_20": 83.33099899291992,
         "sma_50": 81.62539932250976,
-        "sma_200": 74.16252918243408,
-        "volatility_annualized": 0.3525835116603575,
-        "max_drawdown": -0.2764969332592358,
+        "sma_200": 74.16252910614014,
+        "volatility_annualized": 0.35258350489666906,
+        "max_drawdown": -0.27649706768876126,
         "52_week_high": 93.8499984741211,
         "52_week_low": 52.382686614990234,
         "distance_from_52w_high": -0.09557806464084895,
         "position_in_52w_range": 0.7836850082982173,
-        "volume_sma_20": 14705880.55,
-        "volume_sma_60": 15013509.05,
-        "volume_ratio": 0.9795098867975838
+        "volume_sma_20": 14706634.2,
+        "volume_sma_60": 15013760.266666668,
+        "volume_ratio": 0.9795436945034652
       },
       "metrics": {
         "price": 84.87999725341797,
         "return_1m": 0.0022434148841023924,
         "return_3m": -0.07174108719202912,
         "return_6m": 0.4050908979768728,
-        "rsi": 56.23966084078079
+        "rsi": 56.23966084078283
       }
     },
     {
       "symbol": "AJANTPHARM",
-      "overall_score": 86.0039176150835,
+      "overall_score": 85.9209258118048,
       "score_status": "OK",
       "missing_indicators": [],
       "factor_scores": {
@@ -2884,7 +2884,7 @@
         "volume": 5.131147540983607,
         "rsi": 10.0,
         "52_week_strength": 8.99674548393596,
-        "risk": 11.265368852459016
+        "risk": 11.182377049180328
       },
       "explanations": {
         "strengths": [
@@ -2899,12 +2899,12 @@
       "return_1m": 0.0011852215419716416,
       "return_3m": 0.04604583247403293,
       "return_6m": 0.2763540818540252,
-      "rsi_14": 52.146165270205124,
+      "rsi_14": 52.146165270205096,
       "sma_20": 3529.4300048828127,
       "sma_50": 3520.75958984375,
       "sma_200": 3070.5165563964842,
-      "volatility_annualized": 0.2510915851240119,
-      "max_drawdown": -0.2942325339741004,
+      "volatility_annualized": 0.25109160071857334,
+      "max_drawdown": -0.2942325121852584,
       "52_week_high": 3718.199951171875,
       "52_week_low": 2340.465576171875,
       "distance_from_52w_high": -0.045828601092322785,
@@ -2917,18 +2917,18 @@
       "segment": "MIDCAP150",
       "sector": "Healthcare",
       "mapping_status": "VALIDATED",
-      "score": 86.0039176150835,
+      "score": 85.9209258118048,
       "indicators": {
         "current_price": 3547.800048828125,
         "return_1m": 0.0011852215419716416,
         "return_3m": 0.04604583247403293,
         "return_6m": 0.2763540818540252,
-        "rsi_14": 52.146165270205124,
+        "rsi_14": 52.146165270205096,
         "sma_20": 3529.4300048828127,
         "sma_50": 3520.75958984375,
         "sma_200": 3070.5165563964842,
-        "volatility_annualized": 0.2510915851240119,
-        "max_drawdown": -0.2942325339741004,
+        "volatility_annualized": 0.25109160071857334,
+        "max_drawdown": -0.2942325121852584,
         "52_week_high": 3718.199951171875,
         "52_week_low": 2340.465576171875,
         "distance_from_52w_high": -0.045828601092322785,
@@ -2942,12 +2942,12 @@
         "return_1m": 0.0011852215419716416,
         "return_3m": 0.04604583247403293,
         "return_6m": 0.2763540818540252,
-        "rsi": 52.146165270205124
+        "rsi": 52.146165270205096
       }
     },
     {
       "symbol": "MCX",
-      "overall_score": 85.15004470303433,
+      "overall_score": 85.06705289975564,
       "score_status": "OK",
       "missing_indicators": [],
       "factor_scores": {
@@ -2957,7 +2957,7 @@
         "volume": 5.278688524590164,
         "rsi": 10.0,
         "52_week_strength": 9.507626670247427,
-        "risk": 6.00922131147541
+        "risk": 5.926229508196721
       },
       "explanations": {
         "strengths": [
@@ -2979,21 +2979,21 @@
       "sma_20": 3290.8449829101564,
       "sma_50": 3050.763505859375,
       "sma_200": 2733.987191772461,
-      "volatility_annualized": 0.3809002828999695,
+      "volatility_annualized": 0.3809002828999694,
       "max_drawdown": -0.34674138644899233,
       "52_week_high": 3433.28759765625,
       "52_week_low": 1525.3624267578125,
       "distance_from_52w_high": -0.0315696521859955,
       "position_in_52w_range": 0.943190803829345,
-      "volume_sma_20": 1935000.35,
-      "volume_sma_60": 2312556.2,
-      "volume_ratio": 0.8367365731479304,
+      "volume_sma_20": 1935070.75,
+      "volume_sma_60": 2312579.6666666665,
+      "volume_ratio": 0.8367585246432592,
       "yahoo_symbol": "MCX.NS",
       "name": "Multi Commodity Exchange of India Ltd.",
       "segment": "MIDCAP150",
       "sector": "Financial Services",
       "mapping_status": "VALIDATED",
-      "score": 85.15004470303433,
+      "score": 85.06705289975564,
       "indicators": {
         "current_price": 3324.89990234375,
         "return_1m": 0.018346065036370596,
@@ -3003,15 +3003,15 @@
         "sma_20": 3290.8449829101564,
         "sma_50": 3050.763505859375,
         "sma_200": 2733.987191772461,
-        "volatility_annualized": 0.3809002828999695,
+        "volatility_annualized": 0.3809002828999694,
         "max_drawdown": -0.34674138644899233,
         "52_week_high": 3433.28759765625,
         "52_week_low": 1525.3624267578125,
         "distance_from_52w_high": -0.0315696521859955,
         "position_in_52w_range": 0.943190803829345,
-        "volume_sma_20": 1935000.35,
-        "volume_sma_60": 2312556.2,
-        "volume_ratio": 0.8367365731479304
+        "volume_sma_20": 1935070.75,
+        "volume_sma_60": 2312579.6666666665,
+        "volume_ratio": 0.8367585246432592
       },
       "metrics": {
         "price": 3324.89990234375,
@@ -3023,7 +3023,7 @@
     },
     {
       "symbol": "RADICO",
-      "overall_score": 84.94327767981535,
+      "overall_score": 84.8049580076842,
       "score_status": "OK",
       "missing_indicators": [],
       "factor_scores": {
@@ -3033,7 +3033,7 @@
         "volume": 2.6598360655737707,
         "rsi": 10.0,
         "52_week_strength": 9.328523581454698,
-        "risk": 8.581967213114755
+        "risk": 8.443647540983607
       },
       "explanations": {
         "strengths": [
@@ -3053,20 +3053,20 @@
       "sma_50": 4464.830366210937,
       "sma_200": 3511.4860693359374,
       "volatility_annualized": 0.3278990416493291,
-      "max_drawdown": -0.27443490952694255,
+      "max_drawdown": -0.2744348625110993,
       "52_week_high": 4732.89990234375,
       "52_week_low": 2535.57421875,
       "distance_from_52w_high": -0.037144205099381766,
       "position_in_52w_range": 0.9199937423932635,
-      "volume_sma_20": 244691.4,
-      "volume_sma_60": 350297.9,
-      "volume_ratio": 0.6985237422205499,
+      "volume_sma_20": 244695.25,
+      "volume_sma_60": 350299.18333333335,
+      "volume_ratio": 0.6985321737594687,
       "yahoo_symbol": "RADICO.NS",
       "name": "Radico Khaitan Ltd",
       "segment": "MIDCAP150",
       "sector": "Fast Moving Consumer Goods",
       "mapping_status": "VALIDATED",
-      "score": 84.94327767981535,
+      "score": 84.8049580076842,
       "indicators": {
         "current_price": 4557.10009765625,
         "return_1m": -0.01061656585839123,
@@ -3077,14 +3077,14 @@
         "sma_50": 4464.830366210937,
         "sma_200": 3511.4860693359374,
         "volatility_annualized": 0.3278990416493291,
-        "max_drawdown": -0.27443490952694255,
+        "max_drawdown": -0.2744348625110993,
         "52_week_high": 4732.89990234375,
         "52_week_low": 2535.57421875,
         "distance_from_52w_high": -0.037144205099381766,
         "position_in_52w_range": 0.9199937423932635,
-        "volume_sma_20": 244691.4,
-        "volume_sma_60": 350297.9,
-        "volume_ratio": 0.6985237422205499
+        "volume_sma_20": 244695.25,
+        "volume_sma_60": 350299.18333333335,
+        "volume_ratio": 0.6985321737594687
       },
       "metrics": {
         "price": 4557.10009765625,
@@ -3096,7 +3096,7 @@
     },
     {
       "symbol": "LICHSGFIN",
-      "overall_score": 82.76719723827418,
+      "overall_score": 82.79486117270041,
       "score_status": "OK",
       "missing_indicators": [],
       "factor_scores": {
@@ -3106,7 +3106,7 @@
         "volume": 9.741803278688524,
         "rsi": 10.0,
         "52_week_strength": 9.070475926798768,
-        "risk": 11.071721311475411
+        "risk": 11.09938524590164
       },
       "explanations": {
         "strengths": [
@@ -3125,20 +3125,20 @@
       "sma_50": 528.609741821289,
       "sma_200": 524.7950791931153,
       "volatility_annualized": 0.25660438840863736,
-      "max_drawdown": -0.2965518051083601,
+      "max_drawdown": -0.29230426616987154,
       "52_week_high": 581.76904296875,
       "52_week_low": 451.6319885253906,
       "distance_from_52w_high": -0.02710533184832431,
       "position_in_52w_range": 0.878827417477677,
-      "volume_sma_20": 3421656.9,
-      "volume_sma_60": 2437037.4,
-      "volume_ratio": 1.4040231389144868,
+      "volume_sma_20": 3421658.4,
+      "volume_sma_60": 2437037.9,
+      "volume_ratio": 1.4040234663564322,
       "yahoo_symbol": "LICHSGFIN.NS",
       "name": "LIC Housing Finance Ltd.",
       "segment": "MIDCAP150",
       "sector": "Financial Services",
       "mapping_status": "VALIDATED",
-      "score": 82.76719723827418,
+      "score": 82.79486117270041,
       "indicators": {
         "current_price": 566.0,
         "return_1m": 0.05695611577964519,
@@ -3149,14 +3149,14 @@
         "sma_50": 528.609741821289,
         "sma_200": 524.7950791931153,
         "volatility_annualized": 0.25660438840863736,
-        "max_drawdown": -0.2965518051083601,
+        "max_drawdown": -0.29230426616987154,
         "52_week_high": 581.76904296875,
         "52_week_low": 451.6319885253906,
         "distance_from_52w_high": -0.02710533184832431,
         "position_in_52w_range": 0.878827417477677,
-        "volume_sma_20": 3421656.9,
-        "volume_sma_60": 2437037.4,
-        "volume_ratio": 1.4040231389144868
+        "volume_sma_20": 3421658.4,
+        "volume_sma_60": 2437037.9,
+        "volume_ratio": 1.4040234663564322
       },
       "metrics": {
         "price": 566.0,
@@ -3173,7 +3173,7 @@
       "eligible_count": 19,
       "selected_count": 1,
       "highest_scoring_stock": "BOSCHLTD",
-      "highest_score": 87.61265034137341
+      "highest_score": 87.52965853809474
     },
     {
       "sector": "Capital Goods",
@@ -3187,14 +3187,14 @@
       "eligible_count": 8,
       "selected_count": 0,
       "highest_scoring_stock": "SOLARINDS",
-      "highest_score": 82.40255922887525
+      "highest_score": 82.37489529444902
     },
     {
       "sector": "Construction",
       "eligible_count": 2,
       "selected_count": 0,
       "highest_scoring_stock": "LT",
-      "highest_score": 58.38030171221017
+      "highest_score": 58.29730990893148
     },
     {
       "sector": "Construction Materials",
@@ -3208,98 +3208,98 @@
       "eligible_count": 8,
       "selected_count": 0,
       "highest_scoring_stock": "TITAN",
-      "highest_score": 75.22202684487654
+      "highest_score": 75.19436291045031
     },
     {
       "sector": "Consumer Services",
       "eligible_count": 11,
       "selected_count": 1,
       "highest_scoring_stock": "ETERNAL",
-      "highest_score": 84.05919433440289
+      "highest_score": 84.00386646555043
     },
     {
       "sector": "Diversified",
       "eligible_count": 2,
       "selected_count": 0,
       "highest_scoring_stock": "3MINDIA",
-      "highest_score": 72.79069157255327
+      "highest_score": 72.6247079659959
     },
     {
       "sector": "Fast Moving Consumer Goods",
       "eligible_count": 16,
       "selected_count": 0,
       "highest_scoring_stock": "RADICO",
-      "highest_score": 84.94327767981535
+      "highest_score": 84.8049580076842
     },
     {
       "sector": "Financial Services",
       "eligible_count": 56,
       "selected_count": 1,
       "highest_scoring_stock": "MAHABANK",
-      "highest_score": 86.4879952903945
+      "highest_score": 86.32201168383712
     },
     {
       "sector": "Healthcare",
       "eligible_count": 22,
       "selected_count": 4,
       "highest_scoring_stock": "LAURUSLABS",
-      "highest_score": 95.53363040764853
+      "highest_score": 95.5059664732223
     },
     {
       "sector": "Information Technology",
       "eligible_count": 14,
       "selected_count": 0,
       "highest_scoring_stock": "COFORGE",
-      "highest_score": 69.63688141471752
+      "highest_score": 69.60921748029818
     },
     {
       "sector": "Metals & Mining",
       "eligible_count": 12,
       "selected_count": 0,
       "highest_scoring_stock": "SAIL",
-      "highest_score": 80.73011365986724
+      "highest_score": 80.61945792216233
     },
     {
       "sector": "Oil Gas & Consumable Fuels",
       "eligible_count": 10,
       "selected_count": 0,
       "highest_scoring_stock": "COALINDIA",
-      "highest_score": 73.56575560949994
+      "highest_score": 73.78706708490978
     },
     {
       "sector": "Power",
       "eligible_count": 12,
       "selected_count": 0,
       "highest_scoring_stock": "ADANIENSOL",
-      "highest_score": 68.71474802977468
+      "highest_score": 68.68708409534845
     },
     {
       "sector": "Realty",
       "eligible_count": 6,
       "selected_count": 0,
-      "highest_scoring_stock": "OBEROIRLTY",
-      "highest_score": 82.14591005317766
+      "highest_scoring_stock": "PHOENIXLTD",
+      "highest_score": 82.17335372461575
     },
     {
       "sector": "Services",
       "eligible_count": 5,
       "selected_count": 2,
-      "highest_scoring_stock": "ADANIPORTS",
-      "highest_score": 87.80974652878213
+      "highest_scoring_stock": "JSWINFRA",
+      "highest_score": 88.00903029856646
     },
     {
       "sector": "Telecommunication",
       "eligible_count": 5,
       "selected_count": 0,
       "highest_scoring_stock": "IDEA",
-      "highest_score": 79.81414165966663
+      "highest_score": 79.98012526622401
     },
     {
       "sector": "Textiles",
       "eligible_count": 2,
       "selected_count": 0,
       "highest_scoring_stock": "PAGEIND",
-      "highest_score": 67.5763388376201
+      "highest_score": 67.49334659638934
     }
   ],
   "selection_summary": {
@@ -3317,7 +3317,7 @@
             "trend": 20.0,
             "relative_strength": 14.834016393442623,
             "volume": 7.676229508196721,
-            "rsi": 9.467502238202352,
+            "rsi": 9.467502238202355,
             "52_week_strength": 9.990638420936303,
             "risk": 13.616803278688526
           },
@@ -3334,7 +3334,7 @@
           "return_1m": 0.06175496688741722,
           "return_3m": 0.4681818134393684,
           "return_6m": 0.61053239023426,
-          "rsi_14": 67.28213326484706,
+          "rsi_14": 67.28213326484705,
           "sma_20": 9366.225,
           "sma_50": 8681.9601953125,
           "sma_200": 6976.750495605469,
@@ -3344,9 +3344,9 @@
           "52_week_low": 5666.134765625,
           "distance_from_52w_high": -0.00046758104738153783,
           "position_in_52w_range": 0.9988630234397785,
-          "volume_sma_20": 478127.7,
-          "volume_sma_60": 493698.73333333334,
-          "volume_ratio": 0.9684604551682734,
+          "volume_sma_20": 478127.95,
+          "volume_sma_60": 493698.81666666665,
+          "volume_ratio": 0.968460798079693,
           "yahoo_symbol": "DIVISLAB.NS",
           "name": "Divi's Laboratories Ltd.",
           "segment": "NIFTY100",
@@ -3362,7 +3362,7 @@
         },
         {
           "symbol": "ZYDUSLIFE",
-          "overall_score": 89.87012439039356,
+          "overall_score": 89.8147965215411,
           "score_status": "OK",
           "missing_indicators": [],
           "factor_scores": {
@@ -3370,9 +3370,9 @@
             "trend": 20.0,
             "relative_strength": 12.842213114754099,
             "volume": 6.643442622950819,
-            "rsi": 9.900293050382308,
+            "rsi": 9.900293050382306,
             "52_week_strength": 9.974954290830906,
-            "risk": 13.091188524590164
+            "risk": 13.035860655737704
           },
           "explanations": {
             "strengths": [
@@ -3386,7 +3386,7 @@
           "return_1m": 0.01236131335836466,
           "return_3m": 0.08303244062640151,
           "return_6m": 0.3831288374962467,
-          "rsi_14": 65.42731549836154,
+          "rsi_14": 65.42731549836155,
           "sma_20": 1145.565008544922,
           "sma_50": 1137.3946166992187,
           "sma_200": 1007.8632315063477,
@@ -3396,9 +3396,9 @@
           "52_week_low": 859.8273315429688,
           "distance_from_52w_high": -0.0009128428099066666,
           "position_in_52w_range": 0.9968132598943753,
-          "volume_sma_20": 1247226.1,
-          "volume_sma_60": 1389354.2166666666,
-          "volume_ratio": 0.8977020295028436,
+          "volume_sma_20": 1247229.15,
+          "volume_sma_60": 1389355.2333333334,
+          "volume_ratio": 0.8977035678684239,
           "yahoo_symbol": "ZYDUSLIFE.NS",
           "name": "Zydus Lifesciences Ltd.",
           "segment": "NIFTY100",
@@ -3406,7 +3406,7 @@
           "mapping_status": "VALIDATED",
           "signal": "STRONG",
           "selection_reason": [
-            "Score 89.87",
+            "Score 89.81",
             "Top-ranked within segment",
             "Sector limit satisfied",
             "Selected after minimum score filter"
@@ -3414,7 +3414,7 @@
         },
         {
           "symbol": "ADANIPORTS",
-          "overall_score": 87.80974652878213,
+          "overall_score": 87.75441865992967,
           "score_status": "OK",
           "missing_indicators": [],
           "factor_scores": {
@@ -3424,7 +3424,7 @@
             "volume": 9.077868852459016,
             "rsi": 10.0,
             "52_week_strength": 8.709336692716555,
-            "risk": 9.96516393442623
+            "risk": 9.90983606557377
           },
           "explanations": {
             "strengths": [
@@ -3440,19 +3440,19 @@
           "return_1m": 0.043173862310385065,
           "return_3m": -0.012263811606835668,
           "return_6m": 0.36792279792881605,
-          "rsi_14": 56.88879839021607,
+          "rsi_14": 56.888798390216074,
           "sma_20": 1738.310009765625,
           "sma_50": 1725.1160009765624,
           "sma_200": 1623.6047778320312,
           "volatility_annualized": 0.2861178388237144,
-          "max_drawdown": -0.2849041832664157,
+          "max_drawdown": -0.2824190380755299,
           "52_week_high": 1883.199951171875,
           "52_week_low": 1298.1290283203125,
           "distance_from_52w_high": -0.050552226869289174,
           "position_in_52w_range": 0.8372847676177747,
-          "volume_sma_20": 2361359.1,
-          "volume_sma_60": 2048996.3333333333,
-          "volume_ratio": 1.1524467182225315,
+          "volume_sma_20": 2361362.2,
+          "volume_sma_60": 2048997.3666666667,
+          "volume_ratio": 1.1524476499652572,
           "yahoo_symbol": "ADANIPORTS.NS",
           "name": "Adani Ports and Special Economic Zone Ltd.",
           "segment": "NIFTY100",
@@ -3460,7 +3460,7 @@
           "mapping_status": "VALIDATED",
           "signal": "STRONG",
           "selection_reason": [
-            "Score 87.81",
+            "Score 87.75",
             "Top-ranked within segment",
             "Sector limit satisfied",
             "Selected after minimum score filter"
@@ -3468,7 +3468,7 @@
         },
         {
           "symbol": "BOSCHLTD",
-          "overall_score": 87.61265034137341,
+          "overall_score": 87.52965853809474,
           "score_status": "OK",
           "missing_indicators": [],
           "factor_scores": {
@@ -3478,7 +3478,7 @@
             "volume": 5.389344262295081,
             "rsi": 10.0,
             "52_week_strength": 9.323715915143909,
-            "risk": 9.245901639344261
+            "risk": 9.162909836065575
           },
           "explanations": {
             "strengths": [
@@ -3499,15 +3499,15 @@
           "sma_20": 48025.0,
           "sma_50": 45734.27359375,
           "sma_200": 38656.0537109375,
-          "volatility_annualized": 0.28285490608101155,
+          "volatility_annualized": 0.2828549060810115,
           "max_drawdown": -0.32511161195814525,
           "52_week_high": 50000.0,
           "52_week_low": 28557.078125,
           "distance_from_52w_high": -0.03500000000000003,
           "position_in_52w_range": 0.9183879878777015,
-          "volume_sma_20": 29210.45,
-          "volume_sma_60": 34742.183333333334,
-          "volume_ratio": 0.8407776137653985,
+          "volume_sma_20": 29210.65,
+          "volume_sma_60": 34742.25,
+          "volume_ratio": 0.8407817570825149,
           "yahoo_symbol": "BOSCHLTD.NS",
           "name": "Bosch Ltd.",
           "segment": "NIFTY100",
@@ -3515,7 +3515,7 @@
           "mapping_status": "VALIDATED",
           "signal": "STRONG",
           "selection_reason": [
-            "Score 87.61",
+            "Score 87.53",
             "Top-ranked within segment",
             "Sector limit satisfied",
             "Selected after minimum score filter"
@@ -3523,7 +3523,7 @@
         },
         {
           "symbol": "ETERNAL",
-          "overall_score": 84.05919433440289,
+          "overall_score": 84.00386646555043,
           "score_status": "OK",
           "missing_indicators": [],
           "factor_scores": {
@@ -3533,7 +3533,7 @@
             "volume": 7.418032786885246,
             "rsi": 10.0,
             "52_week_strength": 8.859399252435672,
-            "risk": 5.787909836065574
+            "risk": 5.732581967213115
           },
           "explanations": {
             "strengths": [
@@ -3554,15 +3554,15 @@
           "sma_20": 326.76499938964844,
           "sma_50": 317.685,
           "sma_200": 275.7970504760742,
-          "volatility_annualized": 0.33035503975605623,
+          "volatility_annualized": 0.3303550397560562,
           "max_drawdown": -0.39133628062426207,
           "52_week_high": 354.3500061035156,
           "52_week_low": 215.67999267578125,
           "distance_from_52w_high": -0.054607043234713326,
           "position_in_52w_range": 0.8604600545914018,
-          "volume_sma_20": 30053483.55,
-          "volume_sma_60": 31639504.8,
-          "volume_ratio": 0.949872121576315,
+          "volume_sma_20": 30053565.25,
+          "volume_sma_60": 31639532.033333335,
+          "volume_ratio": 0.9498738861983652,
           "yahoo_symbol": "ETERNAL.NS",
           "name": "Eternal Ltd.",
           "segment": "NIFTY100",
@@ -3570,7 +3570,7 @@
           "mapping_status": "VALIDATED",
           "signal": "STRONG",
           "selection_reason": [
-            "Score 84.06",
+            "Score 84.00",
             "Top-ranked within segment",
             "Sector limit satisfied",
             "Selected after minimum score filter"
@@ -3584,7 +3584,7 @@
       "stocks": [
         {
           "symbol": "LAURUSLABS",
-          "overall_score": 95.53363040764853,
+          "overall_score": 95.5059664732223,
           "score_status": "OK",
           "missing_indicators": [],
           "factor_scores": {
@@ -3594,7 +3594,7 @@
             "volume": 9.52049180327869,
             "rsi": 10.0,
             "52_week_strength": 9.803097620763284,
-            "risk": 11.210040983606556
+            "risk": 11.182377049180328
           },
           "explanations": {
             "strengths": [
@@ -3615,14 +3615,14 @@
           "sma_50": 1848.3040014648439,
           "sma_200": 1343.0972927856446,
           "volatility_annualized": 0.29356062048489406,
-          "max_drawdown": -0.18694939343476152,
+          "max_drawdown": -0.18694929796454637,
           "52_week_high": 2034.0,
           "52_week_low": 830.78662109375,
           "distance_from_52w_high": -0.013274336283185861,
           "position_in_52w_range": 0.9775600899446916,
-          "volume_sma_20": 3218191.55,
-          "volume_sma_60": 2481397.65,
-          "volume_ratio": 1.296926975811394,
+          "volume_sma_20": 3218356.05,
+          "volume_sma_60": 2481452.4833333334,
+          "volume_ratio": 1.2969646090812041,
           "yahoo_symbol": "LAURUSLABS.NS",
           "name": "Laurus Labs Ltd.",
           "segment": "MIDCAP150",
@@ -3630,7 +3630,7 @@
           "mapping_status": "VALIDATED",
           "signal": "STRONG",
           "selection_reason": [
-            "Score 95.53",
+            "Score 95.51",
             "Top-ranked within segment",
             "Sector limit satisfied",
             "Selected after minimum score filter"
@@ -3638,7 +3638,7 @@
         },
         {
           "symbol": "AUROPHARMA",
-          "overall_score": 89.97358267929286,
+          "overall_score": 90.16723022027647,
           "score_status": "OK",
           "missing_indicators": [],
           "factor_scores": {
@@ -3648,7 +3648,7 @@
             "volume": 7.012295081967213,
             "rsi": 10.0,
             "52_week_strength": 9.72973022027646,
-            "risk": 10.46311475409836
+            "risk": 10.656762295081966
           },
           "explanations": {
             "strengths": [
@@ -3670,7 +3670,7 @@
           "sma_50": 1635.9660034179688,
           "sma_200": 1411.403998413086,
           "volatility_annualized": 0.25749146443291426,
-          "max_drawdown": -0.32795998800355974,
+          "max_drawdown": -0.3201900852471601,
           "52_week_high": 1734.0,
           "52_week_low": 1070.800048828125,
           "distance_from_52w_high": -0.012687427912341454,
@@ -3685,7 +3685,7 @@
           "mapping_status": "VALIDATED",
           "signal": "STRONG",
           "selection_reason": [
-            "Score 89.97",
+            "Score 90.17",
             "Top-ranked within segment",
             "Sector limit satisfied",
             "Selected after minimum score filter"
@@ -3729,9 +3729,9 @@
           "52_week_low": 1653.7293701171875,
           "distance_from_52w_high": -0.025240516995624573,
           "position_in_52w_range": 0.9072521999351267,
-          "volume_sma_20": 640356.35,
-          "volume_sma_60": 618040.9333333333,
-          "volume_ratio": 1.0361066969242814,
+          "volume_sma_20": 640356.55,
+          "volume_sma_60": 618041.0,
+          "volume_ratio": 1.0361069087649526,
           "yahoo_symbol": "APLAPOLLO.NS",
           "name": "APL Apollo Tubes Ltd.",
           "segment": "MIDCAP150",
@@ -3747,7 +3747,7 @@
         },
         {
           "symbol": "JSWINFRA",
-          "overall_score": 87.6770630854517,
+          "overall_score": 88.00903029856646,
           "score_status": "OK",
           "missing_indicators": [],
           "factor_scores": {
@@ -3757,7 +3757,7 @@
             "volume": 9.40983606557377,
             "rsi": 10.0,
             "52_week_strength": 9.664768003484491,
-            "risk": 6.700819672131147
+            "risk": 7.032786885245901
           },
           "explanations": {
             "strengths": [
@@ -3775,19 +3775,19 @@
           "return_1m": 0.0713122494908319,
           "return_3m": 0.12385533028849083,
           "return_6m": 0.5080646119788745,
-          "rsi_14": 64.03935308471692,
+          "rsi_14": 64.03935308471691,
           "sma_20": 341.8425003051758,
           "sma_50": 336.6280010986328,
           "sma_200": 291.0546439361572,
           "volatility_annualized": 0.3240062207641838,
-          "max_drawdown": -0.36206408551928637,
+          "max_drawdown": -0.34867567535875105,
           "52_week_high": 367.6000061035156,
           "52_week_low": 233.6054229736328,
           "distance_from_52w_high": -0.015097982095745643,
           "position_in_52w_range": 0.9585802785388186,
-          "volume_sma_20": 4575253.75,
-          "volume_sma_60": 3649648.25,
-          "volume_ratio": 1.253614988786933,
+          "volume_sma_20": 4575265.75,
+          "volume_sma_60": 3649652.25,
+          "volume_ratio": 1.253616902815878,
           "yahoo_symbol": "JSWINFRA.NS",
           "name": "JSW Infrastructure Ltd.",
           "segment": "MIDCAP150",
@@ -3795,7 +3795,7 @@
           "mapping_status": "VALIDATED",
           "signal": "STRONG",
           "selection_reason": [
-            "Score 87.68",
+            "Score 88.01",
             "Top-ranked within segment",
             "Sector limit satisfied",
             "Selected after minimum score filter"
@@ -3803,7 +3803,7 @@
         },
         {
           "symbol": "MAHABANK",
-          "overall_score": 86.4879952903945,
+          "overall_score": 86.32201168383712,
           "score_status": "OK",
           "missing_indicators": [],
           "factor_scores": {
@@ -3813,7 +3813,7 @@
             "volume": 7.823770491803279,
             "rsi": 10.0,
             "52_week_strength": 8.199060864164974,
-            "risk": 7.9733606557377055
+            "risk": 7.807377049180327
           },
           "explanations": {
             "strengths": [
@@ -3831,19 +3831,19 @@
           "return_1m": 0.0022434148841023924,
           "return_3m": -0.07174108719202912,
           "return_6m": 0.4050908979768728,
-          "rsi_14": 56.23966084078079,
+          "rsi_14": 56.23966084078283,
           "sma_20": 83.33099899291992,
           "sma_50": 81.62539932250976,
-          "sma_200": 74.16252918243408,
-          "volatility_annualized": 0.3525835116603575,
-          "max_drawdown": -0.2764969332592358,
+          "sma_200": 74.16252910614014,
+          "volatility_annualized": 0.35258350489666906,
+          "max_drawdown": -0.27649706768876126,
           "52_week_high": 93.8499984741211,
           "52_week_low": 52.382686614990234,
           "distance_from_52w_high": -0.09557806464084895,
           "position_in_52w_range": 0.7836850082982173,
-          "volume_sma_20": 14705880.55,
-          "volume_sma_60": 15013509.05,
-          "volume_ratio": 0.9795098867975838,
+          "volume_sma_20": 14706634.2,
+          "volume_sma_60": 15013760.266666668,
+          "volume_ratio": 0.9795436945034652,
           "yahoo_symbol": "MAHABANK.NS",
           "name": "Bank of Maharashtra",
           "segment": "MIDCAP150",
@@ -3851,7 +3851,7 @@
           "mapping_status": "VALIDATED",
           "signal": "STRONG",
           "selection_reason": [
-            "Score 86.49",
+            "Score 86.32",
             "Top-ranked within segment",
             "Sector limit satisfied",
             "Selected after minimum score filter"
@@ -3869,6 +3869,6 @@
   "download": {
     "batch_successful": 238,
     "fallback_successful": 6,
-    "elapsed_seconds": 48.489673376083374
+    "elapsed_seconds": 68.12259864807129
   }
 }
